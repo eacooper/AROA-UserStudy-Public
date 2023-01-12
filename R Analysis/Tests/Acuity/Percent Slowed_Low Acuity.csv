@@ -1,0 +1,8 @@
+"","Test","DFn","DFd","F","GES/T-Value","p value","Corrected p threshold","Result","Effect Size"
+"1","Overall","3","21","2.7583482997096","0.098","0.068","0.05","FAIL","N/A"
+"2","No Cues vs Collocated","7","N/A","N/A","-0.459","0.66","0.008","FAIL","-0.198"
+"3","No Cues vs HUD","7","N/A","N/A","-2.592","0.036","0.008","FAIL","-0.77"
+"4","No Cues vs Combined","7","N/A","N/A","-2.128","0.071","0.008","FAIL","-0.484"
+"5","Collocated vs HUD","7","N/A","N/A","-1.674","0.138","0.008","FAIL","-0.635"
+"6","Collocated vs Combined","7","N/A","N/A","-0.953","0.373","0.008","FAIL","-0.339"
+"7","HUD vs Combined","7","N/A","N/A","1.611","0.151","0.008","FAIL","0.267"

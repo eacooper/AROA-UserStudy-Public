@@ -1,0 +1,479 @@
+Outlier threshold of 2
+Interval of 2.1561 found at index 171 in file OA01_22-02-16_Collocated_Layout 8_Backward_posTracking.csv
+Interval of 2.1275 found at index 195 in file OA01_22-02-16_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.1656 found at index 274 in file OA01_22-02-16_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0817 found at index 90 in file OA01_22-02-16_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.4265 found at index 350 in file OA02_22-02-22_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.1553 found at index 373 in file OA02_22-02-22_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.1573 found at index 423 in file OA02_22-02-22_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.1162 found at index 129 in file OA02_22-02-22_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.7544 found at index 339 in file OA03_22-02-25_Collocated_Layout 2_Backward_posTracking.csv
+Interval of 2.2964 found at index 376 in file OA03_22-02-25_Collocated_Layout 2_Backward_posTracking.csv
+Interval of 2.1703 found at index 439 in file OA03_22-02-25_Combined_Layout 4_Forward_posTracking.csv
+Interval of 2.0141 found at index 49 in file OA03_22-02-25_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.0431 found at index 551 in file OA03_22-02-25_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.9856 found at index 85 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.1562 found at index 117 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.4704 found at index 120 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.2289 found at index 225 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.2634 found at index 243 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.2722 found at index 246 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.7396 found at index 307 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.0699 found at index 384 in file OA03_22-02-25_No Cues_Layout 3_Backward_posTracking.csv
+Interval of 2.5413 found at index 321 in file OA03_22-02-25_No Cues_Layout 3_Forward_posTracking.csv
+Interval of 2.4733 found at index 339 in file OA03_22-02-25_No Cues_Layout 3_Forward_posTracking.csv
+Interval of 2.1016 found at index 361 in file OA03_22-02-25_No Cues_Layout 3_Forward_posTracking.csv
+Interval of 2.0882 found at index 382 in file OA03_22-02-25_No Cues_Layout 3_Forward_posTracking.csv
+Interval of 2.2462 found at index 414 in file OA03_22-02-25_No Cues_Layout 3_Forward_posTracking.csv
+Interval of 2.2218 found at index 84 in file OA04_22-03-09_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 3.0486 found at index 215 in file OA04_22-03-09_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.1502 found at index 268 in file OA04_22-03-09_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.1373 found at index 318 in file OA04_22-03-09_Combined_Layout 8_Forward_posTracking.csv
+Interval of 2.224 found at index 438 in file OA04_22-03-09_HUD_Layout 7_Forward_posTracking.csv
+Interval of 3.1012 found at index 132 in file OA04_22-03-09_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.4157 found at index 135 in file OA04_22-03-09_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.2849 found at index 161 in file OA04_22-03-09_No Cues_Layout 5_Backward_posTracking.csv
+Interval of 2.2255 found at index 93 in file OA04_22-03-09_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.3452 found at index 205 in file OA04_22-03-09_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.3461 found at index 212 in file OA04_22-03-09_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.3519 found at index 226 in file OA04_22-03-09_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.0211 found at index 374 in file OA04_22-03-09_No Cues_Layout 5_Forward_posTracking.csv
+Interval of 2.3058 found at index 84 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.0486 found at index 294 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.9652 found at index 310 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 3.0706 found at index 324 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.0366 found at index 326 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.7912 found at index 338 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.6376 found at index 351 in file OA05_22-03-11_Combined_Layout 6_Forward_posTracking.csv
+Interval of 2.5303 found at index 198 in file OA05_22-03-11_HUD_Layout 1_Backward_posTracking.csv
+Interval of 2.1736 found at index 296 in file OA05_22-03-11_HUD_Layout 1_Forward_posTracking.csv
+Interval of 2.1115 found at index 325 in file OA05_22-03-11_HUD_Layout 1_Forward_posTracking.csv
+Interval of 2.0216 found at index 345 in file OA05_22-03-11_HUD_Layout 1_Forward_posTracking.csv
+Interval of 2.0306 found at index 362 in file OA05_22-03-11_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 3.0015 found at index 393 in file OA05_22-03-11_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.6191 found at index 396 in file OA05_22-03-11_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.0774 found at index 397 in file OA05_22-03-11_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.9007 found at index 35 in file OA06_22-03-21_Collocated_Layout 6_Backward_posTracking.csv
+Interval of 2.8181 found at index 106 in file OA06_22-03-21_Collocated_Layout 6_Backward_posTracking.csv
+Interval of 2.363 found at index 378 in file OA06_22-03-21_Collocated_Layout 6_Backward_posTracking.csv
+Interval of 2.4884 found at index 460 in file OA06_22-03-21_Collocated_Layout 6_Backward_posTracking.csv
+Interval of 2.3334 found at index 480 in file OA06_22-03-21_Collocated_Layout 6_Backward_posTracking.csv
+Interval of 2.3177 found at index 221 in file OA06_22-03-21_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.3264 found at index 256 in file OA06_22-03-21_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.102 found at index 358 in file OA06_22-03-21_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.3988 found at index 509 in file OA06_22-03-21_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.0537 found at index 505 in file OA06_22-03-21_HUD_Layout 3_Forward_posTracking.csv
+Interval of 2.0861 found at index 149 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.3261 found at index 246 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.4023 found at index 330 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.0087 found at index 338 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1388 found at index 341 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.8267 found at index 346 in file OA06_22-03-21_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.2856 found at index 140 in file OA06_22-03-21_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1429 found at index 218 in file OA06_22-03-21_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1479 found at index 287 in file OA06_22-03-21_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.2401 found at index 307 in file OA06_22-03-21_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0549 found at index 363 in file OA06_22-03-21_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0324 found at index 38 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.3877 found at index 50 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.0469 found at index 136 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.2298 found at index 166 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.8028 found at index 191 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.3501 found at index 204 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.2334 found at index 244 in file OA08_22-04-01_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.4135 found at index 233 in file OA08_22-04-01_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.4026 found at index 279 in file OA08_22-04-01_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.0184 found at index 290 in file OA08_22-04-01_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.0412 found at index 365 in file OA08_22-04-01_Combined_Layout 3_Backward_posTracking.csv
+Interval of 2.2439 found at index 373 in file OA08_22-04-01_HUD_Layout 2_Backward_posTracking.csv
+Interval of 19.9033 found at index 467 in file OA08_22-04-01_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.8817 found at index 134 in file OA08_22-04-01_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 3.0877 found at index 282 in file OA08_22-04-01_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.0695 found at index 434 in file OA08_22-04-01_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.4098 found at index 66 in file OA08_22-04-01_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.061 found at index 227 in file OA08_22-04-01_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.2105 found at index 126 in file OA09_22-04-04_Collocated_Layout 4_Backward_posTracking.csv
+Interval of 2.1731 found at index 288 in file OA09_22-04-04_Collocated_Layout 4_Forward_posTracking.csv
+Interval of 2.1345 found at index 373 in file OA09_22-04-04_Collocated_Layout 4_Forward_posTracking.csv
+Interval of 2.0015 found at index 375 in file OA09_22-04-04_Collocated_Layout 4_Forward_posTracking.csv
+Interval of 2.4476 found at index 472 in file OA09_22-04-04_Collocated_Layout 4_Forward_posTracking.csv
+Interval of 2.0167 found at index 42 in file OA09_22-04-04_Combined_Layout 7_Backward_posTracking.csv
+Interval of 2.161 found at index 296 in file OA09_22-04-04_Combined_Layout 7_Forward_posTracking.csv
+Interval of 2.4522 found at index 54 in file OA09_22-04-04_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.0868 found at index 181 in file OA09_22-04-04_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.3204 found at index 300 in file OA09_22-04-04_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.185 found at index 330 in file OA09_22-04-04_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.1501 found at index 343 in file OA09_22-04-04_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.1116 found at index 82 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.2755 found at index 84 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.3846 found at index 90 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.5053 found at index 95 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.4635 found at index 97 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.5153 found at index 106 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.5032 found at index 108 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.4461 found at index 110 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.2674 found at index 112 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.1819 found at index 113 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0509 found at index 117 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0388 found at index 200 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.1117 found at index 203 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.1566 found at index 266 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.016 found at index 268 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.2155 found at index 271 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.189 found at index 273 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0335 found at index 275 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 3.0455 found at index 277 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0223 found at index 316 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0189 found at index 319 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0201 found at index 367 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0424 found at index 396 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.0186 found at index 398 in file OA09_22-04-04_No Cues_Layout 1_Backward_posTracking.csv
+Interval of 2.1143 found at index 31 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0172 found at index 185 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0711 found at index 189 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0203 found at index 234 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.3994 found at index 241 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0101 found at index 302 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.6109 found at index 306 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0268 found at index 358 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.0277 found at index 361 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.1885 found at index 417 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.5317 found at index 421 in file OA09_22-04-04_No Cues_Layout 1_Forward_posTracking.csv
+Interval of 2.1698 found at index 962 in file OA10_22-04-11_Combined_Layout 2_Forward_posTracking.csv
+Interval of 2.2686 found at index 1102 in file OA10_22-04-11_HUD_Layout 4_Forward_posTracking.csv
+Interval of 2.6501 found at index 181 in file OA10_22-04-11_No Cues_Layout 8_Backward_posTracking.csv
+Interval of 2.3998 found at index 75 in file OA11_22-04-20_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.0253 found at index 95 in file OA11_22-04-20_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.6618 found at index 428 in file OA11_22-04-20_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.7763 found at index 419 in file OA11_22-04-20_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.0111 found at index 518 in file OA11_22-04-20_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.3758 found at index 199 in file OA12_22-04-22_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.7047 found at index 280 in file OA12_22-04-22_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.0611 found at index 95 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 3.2324 found at index 238 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.7005 found at index 328 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 3.1953 found at index 349 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.5384 found at index 363 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.3078 found at index 375 in file OA12_22-04-22_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.1332 found at index 91 in file OA12_22-04-22_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.1493 found at index 105 in file OA12_22-04-22_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.0356 found at index 80 in file OA12_22-04-22_Combined_Layout 1_Forward_posTracking.csv
+Interval of 2.0219 found at index 127 in file OA12_22-04-22_Combined_Layout 1_Forward_posTracking.csv
+Interval of 2.0674 found at index 129 in file OA12_22-04-22_Combined_Layout 1_Forward_posTracking.csv
+Interval of 2.0136 found at index 49 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.0844 found at index 81 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.0002 found at index 89 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.0137 found at index 103 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.191 found at index 105 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.153 found at index 199 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.6477 found at index 220 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.0827 found at index 228 in file OA12_22-04-22_HUD_Layout 6_Backward_posTracking.csv
+Interval of 2.2167 found at index 163 in file OA12_22-04-22_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.2744 found at index 241 in file OA12_22-04-22_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.1594 found at index 255 in file OA12_22-04-22_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.3048 found at index 268 in file OA12_22-04-22_HUD_Layout 6_Forward_posTracking.csv
+Interval of 2.01 found at index 42 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0284 found at index 44 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.3546 found at index 48 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.431 found at index 94 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.2282 found at index 100 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 3.464 found at index 105 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.521 found at index 110 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.2477 found at index 128 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.6029 found at index 132 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.1006 found at index 165 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.2087 found at index 167 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0293 found at index 174 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.037 found at index 177 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0245 found at index 179 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.4576 found at index 183 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.2235 found at index 196 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.3943 found at index 270 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.6612 found at index 289 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 3.2065 found at index 301 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.1 found at index 309 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.1028 found at index 312 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.2119 found at index 314 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.137 found at index 316 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0741 found at index 326 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 3.1411 found at index 330 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.1721 found at index 332 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0279 found at index 334 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0631 found at index 366 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.0104 found at index 368 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.7471 found at index 372 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.7404 found at index 379 in file OA12_22-04-22_No Cues_Layout 7_Backward_posTracking.csv
+Interval of 2.3211 found at index 51 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.4959 found at index 87 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.6942 found at index 140 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.4694 found at index 186 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.0598 found at index 188 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.0753 found at index 210 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.147 found at index 211 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.125 found at index 263 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.1763 found at index 278 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.2339 found at index 281 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.1605 found at index 317 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.6806 found at index 339 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.6725 found at index 347 in file OA12_22-04-22_No Cues_Layout 7_Forward_posTracking.csv
+Interval of 2.1248 found at index 31 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.1794 found at index 34 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.0521 found at index 39 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.1647 found at index 42 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 3.2237 found at index 44 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.1337 found at index 123 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.3728 found at index 163 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.3892 found at index 164 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.521 found at index 303 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.2612 found at index 308 in file OA13_22-04-25_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.2608 found at index 122 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.1501 found at index 185 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.8809 found at index 198 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.0692 found at index 215 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.3331 found at index 283 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.3431 found at index 284 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 3.3293 found at index 288 in file OA13_22-04-25_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.2429 found at index 116 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.5603 found at index 118 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.0009 found at index 184 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.8149 found at index 191 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1923 found at index 199 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1931 found at index 246 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1425 found at index 249 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.0168 found at index 252 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1358 found at index 262 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.2759 found at index 307 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.633 found at index 309 in file OA13_22-04-25_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 3.0656 found at index 135 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.6055 found at index 167 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.733 found at index 220 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.37 found at index 227 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.4763 found at index 260 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.4481 found at index 263 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1146 found at index 360 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.7932 found at index 363 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.4893 found at index 365 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0659 found at index 422 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0221 found at index 425 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0141 found at index 437 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 3.0969 found at index 442 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 3.6357 found at index 444 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 3.8067 found at index 447 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 3.456 found at index 448 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.549 found at index 450 in file OA13_22-04-25_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1406 found at index 335 in file OA14_22-04-29_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.2078 found at index 337 in file OA14_22-04-29_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.3613 found at index 397 in file OA14_22-04-29_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.2551 found at index 408 in file OA14_22-04-29_Collocated_Layout 6_Forward_posTracking.csv
+Interval of 2.4121 found at index 80 in file OA14_22-04-29_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.3401 found at index 82 in file OA14_22-04-29_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.136 found at index 152 in file OA14_22-04-29_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0409 found at index 349 in file OA14_22-04-29_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.2195 found at index 487 in file OA14_22-04-29_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.1252 found at index 60 in file OA14_22-04-29_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.168 found at index 66 in file OA14_22-04-29_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.456 found at index 461 in file OA14_22-04-29_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.0679 found at index 38 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.1711 found at index 87 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.005 found at index 141 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.0938 found at index 180 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.8219 found at index 273 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 3.2548 found at index 279 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.2282 found at index 308 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.3687 found at index 324 in file OA15_22-05-04_Collocated_Layout 7_Backward_posTracking.csv
+Interval of 2.9099 found at index 213 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.2036 found at index 258 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.897 found at index 272 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.0919 found at index 304 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.2425 found at index 306 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.0984 found at index 332 in file OA15_22-05-04_Collocated_Layout 7_Forward_posTracking.csv
+Interval of 2.597 found at index 56 in file OA15_22-05-04_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.004 found at index 58 in file OA15_22-05-04_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.0048 found at index 96 in file OA15_22-05-04_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.5345 found at index 127 in file OA15_22-05-04_Combined_Layout 1_Backward_posTracking.csv
+Interval of 2.0326 found at index 65 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.2907 found at index 72 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.1328 found at index 172 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.7742 found at index 183 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.2143 found at index 189 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.0387 found at index 198 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.5433 found at index 320 in file OA15_22-05-04_HUD_Layout 8_Backward_posTracking.csv
+Interval of 2.4749 found at index 99 in file OA15_22-05-04_HUD_Layout 8_Forward_posTracking.csv
+Interval of 2.2422 found at index 143 in file OA15_22-05-04_HUD_Layout 8_Forward_posTracking.csv
+Interval of 2.3324 found at index 175 in file OA15_22-05-04_HUD_Layout 8_Forward_posTracking.csv
+Interval of 2.5827 found at index 243 in file OA15_22-05-04_HUD_Layout 8_Forward_posTracking.csv
+Interval of 2.125 found at index 25 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.5333 found at index 37 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0532 found at index 42 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0232 found at index 44 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.7199 found at index 46 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0347 found at index 54 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0979 found at index 58 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2481 found at index 61 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0205 found at index 71 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3733 found at index 73 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1442 found at index 83 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1896 found at index 85 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.173 found at index 89 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 3.0023 found at index 100 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2407 found at index 103 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2364 found at index 105 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2595 found at index 109 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.6956 found at index 113 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.6951 found at index 127 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 3.1256 found at index 146 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1685 found at index 156 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3836 found at index 159 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1254 found at index 163 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0597 found at index 167 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.082 found at index 169 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2605 found at index 171 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.8478 found at index 175 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0958 found at index 178 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0258 found at index 184 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.157 found at index 186 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.191 found at index 188 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.6013 found at index 192 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.5997 found at index 194 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3012 found at index 207 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0536 found at index 235 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0822 found at index 237 in file OA15_22-05-04_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0807 found at index 22 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1347 found at index 46 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 3.287 found at index 62 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 3.0942 found at index 74 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3265 found at index 78 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.083 found at index 79 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0227 found at index 113 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0232 found at index 130 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 3.2486 found at index 154 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1264 found at index 162 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2738 found at index 182 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1163 found at index 184 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1677 found at index 211 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 3.4166 found at index 215 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.5014 found at index 235 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.8959 found at index 246 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0042 found at index 255 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0505 found at index 258 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0213 found at index 263 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0571 found at index 287 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1874 found at index 289 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.5165 found at index 293 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1612 found at index 322 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2087 found at index 324 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2504 found at index 339 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0056 found at index 355 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0139 found at index 357 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.453 found at index 379 in file OA15_22-05-04_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.022 found at index 31 in file OA16_22-05-04_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.5596 found at index 219 in file OA16_22-05-04_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.219 found at index 273 in file OA16_22-05-04_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.2822 found at index 430 in file OA16_22-05-04_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.0259 found at index 362 in file OA16_22-05-04_Combined_Layout 7_Forward_posTracking.csv
+Interval of 2.094 found at index 468 in file OA16_22-05-04_HUD_Layout 5_Forward_posTracking.csv
+Interval of 2.2569 found at index 75 in file OA16_22-05-04_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.202 found at index 123 in file OA16_22-05-04_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.0844 found at index 66 in file OA16_22-05-04_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0834 found at index 126 in file OA16_22-05-04_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1797 found at index 155 in file OA16_22-05-04_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0385 found at index 503 in file OA16_22-05-04_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.0661 found at index 623 in file OA16_22-05-04_No Cues_Layout 4_Forward_posTracking.csv
+Interval of 2.1412 found at index 467 in file OA17_22-05-09_Combined_Layout 4_Forward_posTracking.csv
+Interval of 2.0142 found at index 117 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.8376 found at index 121 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0529 found at index 126 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.1451 found at index 307 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0602 found at index 336 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.2159 found at index 421 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.1069 found at index 448 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0662 found at index 452 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.1317 found at index 502 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0923 found at index 521 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.1341 found at index 640 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.001 found at index 652 in file OA17_22-05-09_No Cues_Layout 2_Backward_posTracking.csv
+Interval of 2.0675 found at index 611 in file OA17_22-05-09_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.1005 found at index 678 in file OA17_22-05-09_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.4854 found at index 683 in file OA17_22-05-09_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.5242 found at index 686 in file OA17_22-05-09_No Cues_Layout 2_Forward_posTracking.csv
+Interval of 2.226 found at index 61 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.2259 found at index 70 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 3.4329 found at index 172 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.0049 found at index 211 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.0247 found at index 230 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.6576 found at index 241 in file OA18_22-05-11_Collocated_Layout 5_Backward_posTracking.csv
+Interval of 2.167 found at index 68 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.6975 found at index 122 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.505 found at index 181 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.4307 found at index 199 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.2144 found at index 221 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.5734 found at index 232 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.0372 found at index 247 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.5141 found at index 295 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.4027 found at index 335 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.2754 found at index 437 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.4476 found at index 474 in file OA18_22-05-11_Collocated_Layout 5_Forward_posTracking.csv
+Interval of 2.0458 found at index 63 in file OA18_22-05-11_Combined_Layout 8_Backward_posTracking.csv
+Interval of 2.527 found at index 243 in file OA18_22-05-11_Combined_Layout 8_Backward_posTracking.csv
+Interval of 2.2292 found at index 104 in file OA18_22-05-11_Combined_Layout 8_Forward_posTracking.csv
+Interval of 2.123 found at index 127 in file OA18_22-05-11_Combined_Layout 8_Forward_posTracking.csv
+Interval of 2.6856 found at index 157 in file OA18_22-05-11_Combined_Layout 8_Forward_posTracking.csv
+Interval of 2.2065 found at index 71 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.7911 found at index 95 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 3.0201 found at index 391 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.1214 found at index 394 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.1835 found at index 396 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.064 found at index 398 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.1247 found at index 408 in file OA18_22-05-11_HUD_Layout 2_Forward_posTracking.csv
+Interval of 2.0286 found at index 42 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2073 found at index 72 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0698 found at index 307 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0653 found at index 311 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0426 found at index 315 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2681 found at index 443 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.149 found at index 447 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.0725 found at index 536 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2535 found at index 571 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3544 found at index 595 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.5591 found at index 617 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2354 found at index 622 in file OA18_22-05-11_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.4628 found at index 71 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3493 found at index 73 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2174 found at index 104 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1418 found at index 131 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3016 found at index 223 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.5572 found at index 227 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0384 found at index 315 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0711 found at index 318 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2465 found at index 320 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3409 found at index 322 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.4265 found at index 327 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2992 found at index 399 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1454 found at index 455 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.1372 found at index 512 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3306 found at index 558 in file OA18_22-05-11_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.0515 found at index 144 in file OA19_22-05-16_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.6871 found at index 154 in file OA19_22-05-16_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.6547 found at index 176 in file OA19_22-05-16_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.3931 found at index 206 in file OA19_22-05-16_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.0243 found at index 404 in file OA19_22-05-16_Collocated_Layout 3_Backward_posTracking.csv
+Interval of 2.2561 found at index 295 in file OA19_22-05-16_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.1872 found at index 349 in file OA19_22-05-16_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.0595 found at index 485 in file OA19_22-05-16_Collocated_Layout 3_Forward_posTracking.csv
+Interval of 2.1078 found at index 810 in file OA19_22-05-16_HUD_Layout 8_Forward_posTracking.csv
+Interval of 2.2873 found at index 35 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.4347 found at index 63 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1754 found at index 152 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3595 found at index 167 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.3317 found at index 488 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.2251 found at index 499 in file OA19_22-05-16_No Cues_Layout 6_Backward_posTracking.csv
+Interval of 2.1083 found at index 31 in file OA19_22-05-16_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.2732 found at index 250 in file OA19_22-05-16_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3948 found at index 575 in file OA19_22-05-16_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.3268 found at index 591 in file OA19_22-05-16_No Cues_Layout 6_Forward_posTracking.csv
+Interval of 2.4234 found at index 227 in file OA20_22-06-13_Collocated_Layout 8_Backward_posTracking.csv
+Interval of 2.279 found at index 505 in file OA20_22-06-13_Collocated_Layout 8_Backward_posTracking.csv
+Interval of 2.7142 found at index 508 in file OA20_22-06-13_Collocated_Layout 8_Forward_posTracking.csv
+Interval of 2.2033 found at index 90 in file OA20_22-06-13_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1004 found at index 1188 in file OA20_22-06-13_No Cues_Layout 4_Backward_posTracking.csv
+Interval of 2.1016 found at index 934 in file OA20_22-06-13_No Cues_Layout 4_Forward_posTracking.csv

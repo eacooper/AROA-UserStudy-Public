@@ -1,0 +1,105 @@
+[1] "Friedman Test for Confidence Ratings"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition med        sd lower mid upper  iqr max_range min_range
+1 Collocated   2 1.2258187  1.00   2  2.25 1.25     4.125    -0.875
+2   Combined   2 1.7733406  0.00   2  3.00 3.00     7.500    -4.500
+3        HUD   0 1.2523662 -1.00   0  1.00 2.00     4.000    -4.000
+4    No Cues  -1 0.9986833 -1.25  -1  0.00 1.25     1.875    -3.125
+[1] "---------------------"
+[1] "Graph Data"
+[1] ""
+[1] "----------------Single Sample Wilcoxon Signed-Rank Tests----------------"
+[1] "Comparing conditions to a value of 0, representing Control."
+[1] "Wilcox Signed Rank test for No Cues"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == condition]
+V = 0, p-value = 0.001977
+alternative hypothesis: true location is not equal to 0
+
+[1] "No Cues: V = 0; p-value = 0.002; result: PASS; effect size: 0.489; effect magnitude: medium"
+[1] ""
+[1] "Wilcox Signed Rank test for Collocated"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == condition]
+V = 183, p-value = 0.0003545
+alternative hypothesis: true location is not equal to 0
+
+[1] "Collocated: V = 183; p-value = <<0.001; result: PASS; effect size: 0.565; effect magnitude: large"
+[1] ""
+[1] "Wilcox Signed Rank test for HUD"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == condition]
+V = 66.5, p-value = 0.7232
+alternative hypothesis: true location is not equal to 0
+
+[1] "HUD: V = 66.5; p-value = 0.7232; result: FAIL; effect size: 0.056; effect magnitude: small"
+[1] ""
+[1] "Wilcox Signed Rank test for Combined"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == condition]
+V = 133, p-value = 0.007161
+alternative hypothesis: true location is not equal to 0
+
+[1] "Combined: V = 133; p-value = 0.0072; result: PASS; effect size: 0.425; effect magnitude: medium"
+[1] ""
+[1] "----------------OMNIBUS TEST----------------"
+[1] "Omnibus Friedman Test"
+
+	Friedman rank sum test
+
+data:  tmp_rating, tmp_cond and tmp_subj
+Friedman chi-squared = 31.803, df = 3, p-value = 5.757e-07
+
+[1] "----------------FOLLOWUP TESTS----------------"
+[1] "Followup tests using: Wilcox"
+[1] "Collocated vs HUD"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 136, p-value = 0.0004088
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Wilcoxon effect size: 0.559"
+[1] "Collocated vs Combined"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 55.5, p-value = 0.2013
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Wilcoxon effect size: 0.202"
+[1] "HUD vs Combined"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 14.5, p-value = 0.005248
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Wilcoxon effect size: 0.441"
+[1] "----------------RESULTS----------------"
+[1] "SIGNED-RANK WILCOXON"
+[1] "Evaluated against p threshold of 0.05."
+[1] "No Cues: V = 0; p-value = 0.002; result: PASS; effect size: 0.489; effect magnitude: medium"
+[1] "Collocated: V = 183; p-value = <<0.001; result: PASS; effect size: 0.565; effect magnitude: large"
+[1] "HUD: V = 66.5; p-value = 0.7232; result: FAIL; effect size: 0.056; effect magnitude: small"
+[1] "Combined: V = 133; p-value = 0.0072; result: PASS; effect size: 0.425; effect magnitude: medium"
+[1] "-----"
+[1] "OMNIBUS"
+[1] "Omnibus test with chi-squared value of 31.8034 and p-value of <<0.001 tested against default p value 0.05 . Result = PASS"
+[1] "-----"
+[1] "FOLLOWUPS"
+[1] "Bonferroni-corrected p value threshold based on default p value of  0.05 divided by 3 tests is set at 0.017"
+[1] "Followup for Collocated vs HUD with V value of 136 and p-value of <<0.001 = PASS ; Effect size: 0.559 Magnitude:  large"
+[1] "Followup for Collocated vs Combined with V value of 55.5 and p-value of 0.201 = FAIL ; Effect size: 0.202 Magnitude:  small"
+[1] "Followup for HUD vs Combined with V value of 14.5 and p-value of 0.005 = PASS ; Effect size: 0.441 Magnitude:  medium"

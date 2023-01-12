@@ -1,0 +1,18 @@
+[1] "Friedman Test for Control Obstacle Size  - Low Acuity"
+[1] "----------------MEDIAN VALUES----------------"
+        Condition med       sd
+1 Control (first)   4 2.213594
+2  Control (last)   4 1.229273
+[1] "----------------WILCOXON TESTS----------------"
+[1] "Wilcoxon Test"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == "Control (first)"] and tmp_rating[tmp_cond == "Control (last)"]
+V = 15, p-value = 0.9319
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Wilcoxon effect size: 0.027"
+[1] "----------------WILCOXON RESULTS----------------"
+[1] "Omnibus test with V value of 15 and p-value of 0.9319 tested against default p value 0.05 . Result = FAIL"
+[1] "Wilcoxon effect size of 0.027 and magnitude small"

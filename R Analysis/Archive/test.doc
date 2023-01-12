@@ -1,0 +1,4 @@
+                              Length Class      Mode
+ANOVA                         7      data.frame list
+Mauchly's Test for Sphericity 4      data.frame list
+Sphericity Corrections        7      data.frame list

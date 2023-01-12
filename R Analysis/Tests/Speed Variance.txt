@@ -1,0 +1,217 @@
+[1] "ANOVA for Speed Variance"
+[1] "-----------------------MEAN VALUES-----------------------"
+   Condition       mean         sd     median        mid      lower     upper        iqr max_range   min_range
+1 Collocated 0.12214982 0.03545487 0.10859339 0.10859339 0.09888596 0.1489153 0.05002937 0.2239594 0.023841905
+2   Combined 0.08575351 0.01965587 0.07924802 0.07924802 0.07279912 0.1028787 0.03007962 0.1479982 0.027679689
+3        HUD 0.10668870 0.08152872 0.08335456 0.08335456 0.07209492 0.1047109 0.03261599 0.1536349 0.023170936
+4    No Cues 0.16703768 0.05945038 0.15297079 0.15297079 0.13008960 0.2136948 0.08360520 0.3391026 0.004681802
+[1] "Outlier found. Participant OA08 has Head score of 0.408639111686252"
+[1] "Outlier found. Participant OA15 has Head score of 0.177775060624105"
+[1] "Number of participants with outliers:2"
+[[1]]
+[1] "OA08"
+
+[[2]]
+[1] "OA15"
+
+[1] "-----------------------MEAN VALUES - NO OUTLIERS-----------------------"
+   Condition       mean         sd     median        mid      lower      upper        iqr max_range    min_range
+1 Collocated 0.11507322 0.03061944 0.10536826 0.10536826 0.09580615 0.13452885 0.03872270 0.1926129  0.037722097
+2   Combined 0.08367651 0.01925614 0.07727146 0.07727146 0.07021604 0.09663741 0.02642138 0.1362695  0.030583971
+3        HUD 0.08337391 0.02319951 0.07911615 0.07911615 0.06956362 0.09681586 0.02725224 0.1376942  0.028685266
+4    No Cues 0.16110402 0.05247164 0.15297079 0.15297079 0.12507395 0.21139903 0.08632508 0.3408866 -0.004413669
+[1] "---------------------"
+[1] "Graph Data"
+[[1]]
+   colour       ymin      lower     middle      upper      ymax outliers notchupper notchlower x flipped_aes PANEL group ymin_final ymax_final
+1 #F8766D 0.08978206 0.12507395 0.15297079 0.21139903 0.2506151          0.18706919 0.11887238 1       FALSE     1     1 0.08978206  0.2506151
+2 #7CAE00 0.07453916 0.09580615 0.10536826 0.13452885 0.1815831          0.12066373 0.09007279 2       FALSE     1     2 0.07453916  0.1815831
+3 #00BFC4 0.04598678 0.06956362 0.07911615 0.09681586 0.1293638          0.08988079 0.06835152 3       FALSE     1     3 0.04598678  0.1293638
+4 #C77CFF 0.06033277 0.07021604 0.07727146 0.09663741 0.1232240          0.08770790 0.06683501 4       FALSE     1     4 0.06033277  0.1232240
+   xmin  xmax xid newx new_width weight  fill size alpha shape linetype
+1 0.625 1.375   1    1      0.75      1 white  0.5    NA    19    solid
+2 1.625 2.375   2    2      0.75      1 white  0.5    NA    19    solid
+3 2.625 3.375   3    3      0.75      1 white  0.5    NA    19    solid
+4 3.625 4.375   4    4      0.75      1 white  0.5    NA    19    solid
+
+[[2]]
+   colour x group          y ymin ymax PANEL flipped_aes size linetype shape fill alpha stroke
+1 #F8766D 1     1 0.16110402   NA   NA     1       FALSE    1        1    20   NA    NA      1
+2 #7CAE00 2     2 0.11507322   NA   NA     1       FALSE    1        1    20   NA    NA      1
+3 #00BFC4 3     3 0.08337391   NA   NA     1       FALSE    1        1    20   NA    NA      1
+4 #C77CFF 4     4 0.08367651   NA   NA     1       FALSE    1        1    20   NA    NA      1
+
+[1] "-----------------------ANOVA-----------------------"
+[1] "Overall ANOVA"
+$ANOVA
+     Effect DFn DFd        F            p p<.05       ges
+2 Condition   3  45 37.64892 2.496244e-12     * 0.4834878
+
+$`Mauchly's Test for Sphericity`
+     Effect         W          p p<.05
+2 Condition 0.3487008 0.01318825     *
+
+$`Sphericity Corrections`
+     Effect       GGe       p[GG] p[GG]<.05       HFe        p[HF] p[HF]<.05
+2 Condition 0.6099524 2.54548e-08         * 0.6903928 3.766945e-09         *
+
+[1] "-----------------------PAIRED T-TESTS-----------------------"
+[1] "No Cues vs Collocated"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = 5.3577, df = 15, p-value = 7.983e-05
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.02771826 0.06434333
+sample estimates:
+mean difference 
+     0.04603079 
+
+[1] "Effect size for No Cues vs Collocated"
+
+Cohen's d
+
+d estimate: 1.071524 (large)
+95 percent confidence interval:
+    lower     upper 
+0.2993935 1.8436543 
+
+[1] "Using cohensD:"
+[1] 1.071524
+[1] "No Cues vs HUD"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = 7.2395, df = 15, p-value = 2.881e-06
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.05484487 0.10061536
+sample estimates:
+mean difference 
+     0.07773011 
+
+[1] "Effect size for No Cues vs HUD"
+
+Cohen's d
+
+d estimate: 1.916055 (large)
+95 percent confidence interval:
+   lower    upper 
+1.043922 2.788188 
+
+[1] "Using cohensD:"
+[1] 1.916055
+[1] "No Cues vs Combined"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = 7.0169, df = 15, p-value = 4.161e-06
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.05390811 0.10094690
+sample estimates:
+mean difference 
+      0.0774275 
+
+[1] "Effect size for No Cues vs Combined"
+
+Cohen's d
+
+d estimate: 1.959069 (large)
+95 percent confidence interval:
+   lower    upper 
+1.080731 2.837408 
+
+[1] "Using cohensD:"
+[1] 1.959069
+[1] "Collocated vs HUD"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = 5.0181, df = 15, p-value = 0.0001529
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.01823489 0.04516375
+sample estimates:
+mean difference 
+     0.03169932 
+
+[1] "Effect size for Collocated vs HUD"
+
+Cohen's d
+
+d estimate: 1.16696 (large)
+95 percent confidence interval:
+   lower    upper 
+0.385866 1.948054 
+
+[1] "Using cohensD:"
+[1] 1.16696
+[1] "Collocated vs Combined"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = 4.1974, df = 15, p-value = 0.000777
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.01545320 0.04734022
+sample estimates:
+mean difference 
+     0.03139671 
+
+[1] "Effect size for Collocated vs Combined"
+
+Cohen's d
+
+d estimate: 1.227545 (large)
+95 percent confidence interval:
+   lower    upper 
+0.440422 2.014667 
+
+[1] "Using cohensD:"
+[1] 1.227545
+[1] "HUD vs Combined"
+
+	Paired t-test
+
+data:  dataSet[[targetStat]][dataSet$Condition == con1] and dataSet[[targetStat]][dataSet$Condition == con2]
+t = -0.064288, df = 15, p-value = 0.9496
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.010335572  0.009730352
+sample estimates:
+mean difference 
+    -0.00030261 
+
+[1] "Effect size for HUD vs Combined"
+
+Cohen's d
+
+d estimate: -0.01419425 (negligible)
+95 percent confidence interval:
+     lower      upper 
+-0.7362557  0.7078672 
+
+[1] "Using cohensD:"
+[1] 0.01419425
+[1] "-----------------------RESULTS-----------------------"
+[1] "Mauchly's Test for Sphericity passed: FALSE"
+[1] "Therefore use Greenhouse-Geisser corrections."
+[1] "P value of <<0.001"
+[1] "Degrees of freedom:  3 , 45"
+[1] "F value of:  37.6489249308101"
+[1] "Generalized Eta-Squared (ges) of 0.483"
+[1] "Statistical significance based on threshold of 0.05 : PASS"
+[1] "Bonferroni-corrected p value threshold based on default p value of  0.05 divided by 6 tests is set at 0.008"
+[1] "Followup for No Cues vs Collocated with t-value of 5.358 , degrees of freedom of 15 , and p-value of <<0.001 = PASS ; effect size:  1.072"
+[1] "Followup for No Cues vs HUD with t-value of 7.24 , degrees of freedom of 15 , and p-value of <<0.001 = PASS ; effect size:  1.916"
+[1] "Followup for No Cues vs Combined with t-value of 7.017 , degrees of freedom of 15 , and p-value of <<0.001 = PASS ; effect size:  1.959"
+[1] "Followup for Collocated vs HUD with t-value of 5.018 , degrees of freedom of 15 , and p-value of <<0.001 = PASS ; effect size:  1.167"
+[1] "Followup for Collocated vs Combined with t-value of 4.197 , degrees of freedom of 15 , and p-value of 0.001 = PASS ; effect size:  1.228"
+[1] "Followup for HUD vs Combined with t-value of -0.064 , degrees of freedom of 15 , and p-value of 0.95 = FAIL ; effect size:  -0.014"

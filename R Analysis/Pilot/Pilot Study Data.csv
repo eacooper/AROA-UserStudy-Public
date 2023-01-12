@@ -1,0 +1,29 @@
+﻿Participant ID,Participant,Metric,Control,World-Locked,Heads-Up,Combined
+9786,A,Noticed Obstacles,5,5,5,5
+9786,A,Know Location,3,5,4,5
+9786,A,Know Size,2,5,5,5
+9786,A,Cue Helped Notice,0,5,5,5
+9786,A,Cue Helped Navigation,0,5,4,4
+9786,A,Not Obscuring,0,5,4,4
+9786,A,Not Distracting,0,4,4,3
+8621,B,Noticed Obstacles,5,5,5,5
+8621,B,Know Location,5,5,1,4
+8621,B,Know Size,4,2,1,2
+8621,B,Cue Helped Notice,0,5,1,5
+8621,B,Cue Helped Navigation,0,5,1,4
+8621,B,Not Obscuring,0,2,1,1
+8621,B,Not Distracting,0,5,1,2
+9606,C,Noticed Obstacles,5,5,5,5
+9606,C,Know Location,5,5,5,5
+9606,C,Know Size,5,5,5,5
+9606,C,Cue Helped Notice,0,2,2,3
+9606,C,Cue Helped Navigation,0,4,1,3
+9606,C,Not Obscuring,0,4,5,4
+9606,C,Not Distracting,0,3,2,3
+2762,D,Noticed Obstacles,5,5,5,5
+2762,D,Know Location,5,5,5,5
+2762,D,Know Size,5,5,5,5
+2762,D,Cue Helped Notice,0,5,5,5
+2762,D,Cue Helped Navigation,0,5,5,5
+2762,D,Not Obscuring,0,5,5,5
+2762,D,Not Distracting,0,5,4,3

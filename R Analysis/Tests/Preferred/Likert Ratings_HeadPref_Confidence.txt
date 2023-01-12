@@ -1,0 +1,9 @@
+[1] "Friedman Test for Confidence - Head Preference"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition med        sd lower mid upper  iqr max_range min_range
+1 Collocated   2 0.9161254  1.00   2  2.00 1.00     3.500    -0.500
+2   Combined   2 1.0690450  1.75   2  3.00 1.25     4.875    -0.125
+3        HUD   0 1.0690450  0.00   0  1.25 1.25     3.125    -1.875
+4    No Cues  -1 0.8345230 -1.25  -1  0.00 1.25     1.875    -3.125
+[1] "---------------------"
+[1] "Graph Data"

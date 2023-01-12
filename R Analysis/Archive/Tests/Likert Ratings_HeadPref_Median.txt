@@ -1,0 +1,7 @@
+[1] "Friedman Test for Median - Head Preference"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition   med        sd
+1 Collocated  1.25 0.9636241
+2   Combined  1.75 0.8210403
+3        HUD  0.25 0.7529703
+4    No Cues -0.75 0.7039430

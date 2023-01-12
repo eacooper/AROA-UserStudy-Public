@@ -1,0 +1,78 @@
+[1] "Friedman Test for Obstacle Location Ratings"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition  med        sd
+1 Collocated  2.0 1.3138934
+2   Combined  1.5 1.7554427
+3        HUD  1.0 1.3917047
+4    No Cues -0.5 0.8127277
+[1] ""
+[1] "----------------Single Sample Wilcoxon Signed-Rank Test----------------"
+[1] "Comparing No Cues to a value of 0, representing Control."
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == "No Cues"]
+V = 0, p-value = 0.003549
+alternative hypothesis: true location is not equal to 0
+
+[1] "Wilcoxon test with p-value of 0.0035 tested against default p value 0.05 ; result = PASS"
+[1] ""
+[1] "----------------FRIEDMAN TESTS----------------"
+[1] "Omnibus Friedman Test"
+
+	Friedman rank sum test
+
+data:  tmp_rating, tmp_cond and tmp_subj
+Friedman chi-squared = 26.86, df = 3, p-value = 6.3e-06
+
+[1] "No Cues vs Collocated"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 14.222, df = 1, p-value = 0.0001624
+
+[1] "No Cues vs HUD"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 6.3684, df = 1, p-value = 0.01162
+
+[1] "No Cues vs Combined"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 8.8947, df = 1, p-value = 0.00286
+
+[1] "Collocated vs HUD"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 10.286, df = 1, p-value = 0.001341
+
+[1] "Collocated vs Combined"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 0.33333, df = 1, p-value = 0.5637
+
+[1] "HUD vs Combined"
+
+	Friedman rank sum test
+
+data:  tmp_rating[tmp_cond == con1 | tmp_cond == con2], tmp_cond[tmp_cond == con1 | tmp_cond == con2] and tmp_subj[tmp_cond == con1 | tmp_cond == con2]
+Friedman chi-squared = 8.3333, df = 1, p-value = 0.003892
+
+[1] "----------------FRIEDMAN RESULTS----------------"
+[1] "Omnibus test with chi-squared value of 26.8596 and p-value of <<0.001 tested against default p value 0.05  result = PASS"
+[1] "Bonferroni-corrected p value threshold based on default p value of  0.05 divided by 6 tests is set at 0.008"
+[1] "Followup for No Cues vs Collocated with chi-squared value of 14.222 and p-value of <<0.001 = PASS"
+[1] "Followup for No Cues vs HUD with chi-squared value of 6.368 and p-value of 0.012 = FAIL"
+[1] "Followup for No Cues vs Combined with chi-squared value of 8.895 and p-value of 0.003 = PASS"
+[1] "Followup for Collocated vs HUD with chi-squared value of 10.286 and p-value of 0.001 = PASS"
+[1] "Followup for Collocated vs Combined with chi-squared value of 0.333 and p-value of 0.564 = FAIL"
+[1] "Followup for HUD vs Combined with chi-squared value of 8.333 and p-value of 0.004 = PASS"

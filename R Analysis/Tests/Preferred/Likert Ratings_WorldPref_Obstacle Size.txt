@@ -1,0 +1,9 @@
+[1] "Friedman Test for Obstacle Size - World Preference"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition  med        sd lower  mid upper  iqr max_range min_range
+1 Collocated  3.0 1.5954481  1.75  3.0  3.00 1.25     4.875    -0.125
+2   Combined  1.0 1.5954481  0.00  1.0  2.25 2.25     5.625    -3.375
+3        HUD -0.5 1.4034589 -2.00 -0.5  0.00 2.00     3.000    -5.000
+4    No Cues  0.0 0.7929615 -1.00  0.0  0.00 1.00     1.500    -2.500
+[1] "---------------------"
+[1] "Graph Data"

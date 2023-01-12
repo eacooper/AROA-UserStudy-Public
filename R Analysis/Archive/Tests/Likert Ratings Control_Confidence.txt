@@ -1,0 +1,15 @@
+[1] "Friedman Test for Control Confidence Ratings"
+[1] "----------------MEDIAN VALUES----------------"
+        Condition med       sd
+1 Control (first)   5 1.361114
+2  Control (last)   6 1.089423
+[1] "----------------FRIEDMAN TESTS----------------"
+[1] "Omnibus Friedman Test"
+
+	Friedman rank sum test
+
+data:  tmp_rating, tmp_cond and tmp_subj
+Friedman chi-squared = 3.5714, df = 1, p-value = 0.05878
+
+[1] "----------------FRIEDMAN RESULTS----------------"
+[1] "Omnibus test with chi-squared value of 3.5714 and p-value of 0.0588 tested against default p value 0.05  result = FAIL"

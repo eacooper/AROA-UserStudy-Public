@@ -1,0 +1,2 @@
+Outlier threshold of 30
+Interval of 31.2127 found at index 533 in file OA17_22-05-09_HUD_Layout 1_Forward_posTracking.csv

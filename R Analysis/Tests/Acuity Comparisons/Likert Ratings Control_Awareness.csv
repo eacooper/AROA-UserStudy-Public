@@ -1,0 +1,4 @@
+"","X","Test","V","p.value","Corrected.p.threshold","Result","Effect.Size","Effect.Magnitude","category"
+"1",1,"Omnibus",16.5,0.1429,0.05,"FAIL",0.327624062311441,"medium","Default"
+"2",1,"Omnibus",3,0.1198,0.05,"FAIL",0.491909858248415,"medium","High Acuity"
+"3",1,"Omnibus",5,0.5862,0.05,"FAIL",0.172132593164774,"small","Low Acuity"

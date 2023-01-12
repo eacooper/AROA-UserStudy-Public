@@ -1,0 +1,241 @@
+Participant ID,Eye calibration success,HUD adjustment,White Cane,PWS average time,Preferred Walking Speed (m/s),Condition,Direction,Layout,Control Time,Order,PPWS,Errors,Median Rating,Confidence,Obstacle location,Obstacle size,Awareness,Preferred Condition
+OA01,Yes,None,No,13.5,1.11,Control (first),Forward,4,16.78,1,80.44%,0,2,2,2,2,2,N/A
+OA01,Yes,None,No,13.5,1.11,Control (first),Backward,4,16.27,1,82.96%,0,2,2,2,2,2,N/A
+OA01,Yes,None,No,13.5,1.11,No Cues,Forward,2,,2,78.68%,0,3,3,3,3,3,N/A
+OA01,Yes,None,No,13.5,1.11,No Cues,Backward,2,,2,85.85%,0,3,3,3,3,3,N/A
+OA01,Yes,None,No,13.5,1.11,Collocated,Forward,8,,4,77.77%,2,5.5,6,5,6,5,No
+OA01,Yes,None,No,13.5,1.11,Collocated,Backward,8,,4,89.21%,0,5.5,6,5,6,5,No
+OA01,Yes,None,No,13.5,1.11,HUD,Forward,5,,3,77.94%,0,4.5,4,5,4,6,No
+OA01,Yes,None,No,13.5,1.11,HUD,Backward,5,,3,87.77%,0,4.5,4,5,4,6,No
+OA01,Yes,None,No,13.5,1.11,Combined,Forward,7,,5,90.41%,0,7,7,7,7,7,Yes
+OA01,Yes,None,No,13.5,1.11,Combined,Backward,7,,5,93.30%,1,7,7,7,7,7,Yes
+OA01,Yes,None,No,13.5,1.11,Control (last),Forward,1,14.43,6,93.54%,0,6,6,6,6,6,N/A
+OA01,Yes,None,No,13.5,1.11,Control (last),Backward,1,14.34,6,94.12%,0,6,6,6,6,6,N/A
+OA02,Yes,None,Yes,11.68,1.28,Control (first),Forward,8,26.11,1,44.73%,1,5.5,5,6,7,5,N/A
+OA02,Yes,None,Yes,11.68,1.28,Control (first),Backward,8,20.16,1,57.94%,0,5.5,5,6,7,5,N/A
+OA02,Yes,None,Yes,11.68,1.28,No Cues,Forward,5,,4,52.90%,1,4,4,4,4,4,N/A
+OA02,Yes,None,Yes,11.68,1.28,No Cues,Backward,5,,4,57.83%,1,4,4,4,4,4,N/A
+OA02,Yes,None,Yes,11.68,1.28,Collocated,Forward,2,,5,38.93%,1,3.5,3,3,4,4,Yes
+OA02,Yes,None,Yes,11.68,1.28,Collocated,Backward,2,,5,49.84%,0,3.5,3,3,4,4,Yes
+OA02,Yes,None,Yes,11.68,1.28,HUD,Forward,6,,2,41.96%,2,2.5,3,3,2,2,No
+OA02,Yes,None,Yes,11.68,1.28,HUD,Backward,6,,2,39.17%,1,2.5,3,3,2,2,No
+OA02,Yes,None,Yes,11.68,1.28,Combined,Forward,1,,3,41.44%,2,3,3,3,4,2,No
+OA02,Yes,None,Yes,11.68,1.28,Combined,Backward,1,,3,42.33%,1,3,3,3,4,2,No
+OA02,Yes,None,Yes,11.68,1.28,Control (last),Forward,7,18.89,6,61.83%,1,6,6,6,5,6,N/A
+OA02,Yes,None,Yes,11.68,1.28,Control (last),Backward,7,18,6,64.89%,1,6,6,6,5,6,N/A
+OA03,Yes,None,No,10.09,1.49,Control (first),Forward,7,17.17,1,58.75%,0,5,6,3,5,5,N/A
+OA03,Yes,None,No,10.09,1.49,Control (first),Backward,7,17.39,1,58.01%,0,5,6,3,5,5,N/A
+OA03,Yes,None,No,10.09,1.49,No Cues,Forward,3,,5,53.85%,0,3,2,3,3,3,N/A
+OA03,Yes,None,No,10.09,1.49,No Cues,Backward,3,,5,62.58%,0,3,2,3,3,3,N/A
+OA03,Yes,None,No,10.09,1.49,Collocated,Forward,2,,4,45.69%,0,6,6,6,6,4,Yes
+OA03,Yes,None,No,10.09,1.49,Collocated,Backward,2,,4,57.11%,0,6,6,6,6,4,Yes
+OA03,Yes,None,No,10.09,1.49,HUD,Forward,6,,3,37.89%,0,3,3,4,2,3,No
+OA03,Yes,None,No,10.09,1.49,HUD,Backward,6,,3,39.25%,0,3,3,4,2,3,No
+OA03,Yes,None,No,10.09,1.49,Combined,Forward,4,,2,39.33%,0,4.5,4,5,5,3,No
+OA03,Yes,None,No,10.09,1.49,Combined,Backward,4,,2,38.04%,0,4.5,4,5,5,3,No
+OA03,Yes,None,No,10.09,1.49,Control (last),Forward,5,14.91,6,67.66%,0,5.5,6,3,5,6,N/A
+OA03,Yes,None,No,10.09,1.49,Control (last),Backward,5,13.96,6,72.26%,0,5.5,6,3,5,6,N/A
+OA04,Yes,None,Yes,10.51,1.43,Control (first),Forward,6,22.05,1,47.68%,0,6,5,7,6,6,N/A
+OA04,Yes,None,Yes,10.51,1.43,Control (first),Backward,6,18.94,1,55.50%,0,6,5,7,6,6,N/A
+OA04,Yes,None,Yes,10.51,1.43,No Cues,Forward,5,,2,46.36%,1,3,3,3,4,3,N/A
+OA04,Yes,None,Yes,10.51,1.43,No Cues,Backward,5,,2,55.20%,0,3,3,3,4,3,N/A
+OA04,Yes,None,Yes,10.51,1.43,Collocated,Forward,3,,5,48.17%,0,6,5,6,7,6,Yes
+OA04,Yes,None,Yes,10.51,1.43,Collocated,Backward,3,,5,55.66%,1,6,5,6,7,6,Yes
+OA04,Yes,None,Yes,10.51,1.43,HUD,Forward,7,,4,35.67%,0,3,3,2,3,3,No
+OA04,Yes,None,Yes,10.51,1.43,HUD,Backward,7,,4,36.95%,1,3,3,2,3,3,No
+OA04,Yes,None,Yes,10.51,1.43,Combined,Forward,8,,3,40.19%,2,2.5,2,2,6,3,No
+OA04,Yes,None,Yes,10.51,1.43,Combined,Backward,8,,3,42.23%,0,2.5,2,2,6,3,No
+OA04,Yes,None,Yes,10.51,1.43,Control (last),Forward,2,17.29,6,60.80%,1,6,6,6,5,7,N/A
+OA04,Yes,None,Yes,10.51,1.43,Control (last),Backward,2,14.95,6,70.32%,0,6,6,6,5,7,N/A
+OA05,Yes,None,No,11.23,1.34,Control (first),Forward,4,17.74,1,63.32%,1,5,5,4,5,6,N/A
+OA05,Yes,None,No,11.23,1.34,Control (first),Backward,4,17.61,1,63.78%,0,5,5,4,5,6,N/A
+OA05,Yes,None,No,11.23,1.34,No Cues,Forward,2,,2,55.13%,0,3,3,4,3,2,N/A
+OA05,Yes,None,No,11.23,1.34,No Cues,Backward,2,,2,51.75%,0,3,3,4,3,2,N/A
+OA05,Yes,None,No,11.23,1.34,Collocated,Forward,5,,3,53.21%,0,5,5,5,6,5,No
+OA05,Yes,None,No,11.23,1.34,Collocated,Backward,5,,3,60.61%,0,5,5,5,6,5,No
+OA05,Yes,None,No,11.23,1.34,HUD,Forward,1,,4,50.94%,1,4,4,5,4,4,Yes
+OA05,Yes,None,No,11.23,1.34,HUD,Backward,1,,4,57.09%,1,4,4,5,4,4,Yes
+OA05,Yes,None,No,11.23,1.34,Combined,Forward,6,,5,63.87%,0,5,5,4,5,5,No
+OA05,Yes,None,No,11.23,1.34,Combined,Backward,6,,5,66.49%,0,5,5,4,5,5,No
+OA05,Yes,None,No,11.23,1.34,Control (last),Forward,7,14.58,6,77.04%,0,6,5,6,6,7,N/A
+OA05,Yes,None,No,11.23,1.34,Control (last),Backward,7,15.02,6,74.78%,0,6,5,6,6,7,N/A
+OA06,No,None,Yes,10.32,1.45,Control (first),Forward,7,23.58,1,43.77%,3,5.5,6,5,2,6,N/A
+OA06,No,None,Yes,10.32,1.45,Control (first),Backward,7,20.36,1,50.69%,2,5.5,6,5,2,6,N/A
+OA06,No,None,Yes,10.32,1.45,No Cues,Forward,4,,5,51.44%,2,4,4,4,3,4,N/A
+OA06,No,None,Yes,10.32,1.45,No Cues,Backward,4,,5,58.06%,2,4,4,4,3,4,N/A
+OA06,No,None,Yes,10.32,1.45,Collocated,Forward,6,,3,42.91%,0,6.5,7,6,7,3,Yes
+OA06,No,None,Yes,10.32,1.45,Collocated,Backward,6,,3,47.03%,1,6.5,7,6,7,3,Yes
+OA06,No,None,Yes,10.32,1.45,HUD,Forward,3,,2,36.02%,2,5,6,6,4,2,No
+OA06,No,None,Yes,10.32,1.45,HUD,Backward,3,,2,36.92%,0,5,6,6,4,2,No
+OA06,No,None,Yes,10.32,1.45,Combined,Forward,2,,4,41.58%,0,7,7,7,7,3,No
+OA06,No,None,Yes,10.32,1.45,Combined,Backward,2,,4,44.16%,2,7,7,7,7,3,No
+OA06,No,None,Yes,10.32,1.45,Control (last),Forward,1,18.42,6,56.03%,2,5.5,6,5,2,6,N/A
+OA06,No,None,Yes,10.32,1.45,Control (last),Backward,1,17.93,6,57.56%,2,5.5,6,5,2,6,N/A
+OA07,No,None,Yes,13.19,1.14,Control (first),Forward,3,47.18,1,27.96%,2,4.5,5,3,4,5,N/A
+OA07,No,None,Yes,13.19,1.14,Control (first),Backward,3,39.62,1,33.30%,2,4.5,5,3,4,5,N/A
+OA07,No,None,Yes,13.19,1.14,No Cues,Forward,1,,4,27.02%,2,2,2,2,2,3,N/A
+OA07,No,None,Yes,13.19,1.14,No Cues,Backward,1,,4,31.23%,2,2,2,2,2,3,N/A
+OA07,No,None,Yes,13.19,1.14,Collocated,Forward,8,,3,23.77%,2,5,5,5,5,4,No
+OA07,No,None,Yes,13.19,1.14,Collocated,Backward,8,,3,29.40%,2,5,5,5,5,4,No
+OA07,No,None,Yes,13.19,1.14,HUD,Forward,5,,5,32.94%,2,4.5,5,5,3,4,Yes
+OA07,No,None,Yes,13.19,1.14,HUD,Backward,5,,5,35.82%,3,4.5,5,5,3,4,Yes
+OA07,No,None,Yes,13.19,1.14,Combined,Forward,2,,2,20.41%,3,5,6,5,5,5,No
+OA07,No,None,Yes,13.19,1.14,Combined,Backward,2,,2,25.84%,2,5,6,5,5,5,No
+OA07,No,None,Yes,13.19,1.14,Control (last),Forward,7,30.07,6,43.87%,2,4.5,6,5,4,4,N/A
+OA07,No,None,Yes,13.19,1.14,Control (last),Backward,7,25.26,6,52.23%,0,4.5,6,5,4,4,N/A
+OA08,Yes,None,Yes,11.69,1.28,Control (first),Forward,1,28.56,1,40.92%,2,3,3,3,1,7,N/A
+OA08,Yes,None,Yes,11.69,1.28,Control (first),Backward,1,27.7,1,42.19%,1,3,3,3,1,7,N/A
+OA08,Yes,None,Yes,11.69,1.28,No Cues,Forward,4,,4,42.27%,2,2.5,1,4,4,1,N/A
+OA08,Yes,None,Yes,11.69,1.28,No Cues,Backward,4,,4,56.18%,2,2.5,1,4,4,1,N/A
+OA08,Yes,None,Yes,11.69,1.28,Collocated,Forward,7,,5,68.66%,1,7,7,7,7,7,Yes
+OA08,Yes,None,Yes,11.69,1.28,Collocated,Backward,7,,5,79.24%,0,7,7,7,7,7,Yes
+OA08,Yes,None,Yes,11.69,1.28,HUD,Forward,2,,2,40.12%,2,5,5,5,4,5,No
+OA08,Yes,None,Yes,11.69,1.28,HUD,Backward,2,,2,47.85%,1,5,5,5,4,5,No
+OA08,Yes,None,Yes,11.69,1.28,Combined,Forward,3,,3,42.87%,2,7,7,7,7,5,No
+OA08,Yes,None,Yes,11.69,1.28,Combined,Backward,3,,3,54.61%,0,7,7,7,7,5,No
+OA08,Yes,None,Yes,11.69,1.28,Control (last),Forward,8,20.99,6,55.68%,1,5,5,6,4,5,N/A
+OA08,Yes,None,Yes,11.69,1.28,Control (last),Backward,8,20.59,6,56.76%,2,5,5,6,4,5,N/A
+OA09,Yes,None,No,13.49,1.11,Control (first),Forward,5,16.21,1,83.19%,0,7,7,7,7,7,N/A
+OA09,Yes,None,No,13.49,1.11,Control (first),Backward,5,14.78,1,91.24%,0,7,7,7,7,7,N/A
+OA09,Yes,None,No,13.49,1.11,No Cues,Forward,1,,5,79.39%,0,3,3,3,3,3,N/A
+OA09,Yes,None,No,13.49,1.11,No Cues,Backward,1,,5,86.05%,0,3,3,3,3,3,N/A
+OA09,Yes,None,No,13.49,1.11,Collocated,Forward,4,,2,60.40%,1,6.5,6,7,7,6,Yes
+OA09,Yes,None,No,13.49,1.11,Collocated,Backward,4,,2,68.61%,0,6.5,6,7,7,6,Yes
+OA09,Yes,None,No,13.49,1.11,HUD,Forward,6,,4,68.64%,0,5.5,5,6,4,6,No
+OA09,Yes,None,No,13.49,1.11,HUD,Backward,6,,4,73.28%,0,5.5,5,6,4,6,No
+OA09,Yes,None,No,13.49,1.11,Combined,Forward,7,,3,70.18%,0,7,7,7,7,6,No
+OA09,Yes,None,No,13.49,1.11,Combined,Backward,7,,3,75.08%,0,7,7,7,7,6,No
+OA09,Yes,None,No,13.49,1.11,Control (last),Forward,3,16.1,6,83.76%,0,7,7,7,6,7,N/A
+OA09,Yes,None,No,13.49,1.11,Control (last),Backward,3,15.03,6,89.72%,0,7,7,7,6,7,N/A
+OA10,No,None,Yes,9.33,1.61,Control (first),Forward,3,34.13,1,27.32%,2,4,4,2,4,4,N/A
+OA10,No,None,Yes,9.33,1.61,Control (first),Backward,3,34.52,1,27.01%,2,4,4,2,4,4,N/A
+OA10,No,None,Yes,9.33,1.61,No Cues,Forward,8,,2,22.01%,3,1,1,1,2,1,N/A
+OA10,No,None,Yes,9.33,1.61,No Cues,Backward,8,,2,26.18%,1,1,1,1,2,1,N/A
+OA10,No,None,Yes,9.33,1.61,Collocated,Forward,6,,3,15.53%,2,2.5,3,3,2,2,Yes
+OA10,No,None,Yes,9.33,1.61,Collocated,Backward,6,,3,17.44%,3,2.5,3,3,2,2,Yes
+OA10,No,None,Yes,9.33,1.61,HUD,Forward,4,,4,15.33%,3,2,2,2,2,2,No
+OA10,No,None,Yes,9.33,1.61,HUD,Backward,4,,4,15.36%,2,2,2,2,2,2,No
+OA10,No,None,Yes,9.33,1.61,Combined,Forward,2,,5,16.68%,3,2,2,2,2,2,No
+OA10,No,None,Yes,9.33,1.61,Combined,Backward,2,,5,19.25%,2,2,2,2,2,2,No
+OA10,No,None,Yes,9.33,1.61,Control (last),Forward,1,31.21,6,29.88%,2,4,4,3,4,4,N/A
+OA10,No,None,Yes,9.33,1.61,Control (last),Backward,1,29.71,6,31.39%,0,4,4,3,4,4,N/A
+OA11,Yes,None,No,13.74,1.09,Control (first),Forward,8,26.27,1,52.28%,0,5.5,6,6,5,5,N/A
+OA11,Yes,None,No,13.74,1.09,Control (first),Backward,8,27.54,1,49.87%,0,5.5,6,6,5,5,N/A
+OA11,Yes,None,No,13.74,1.09,No Cues,Forward,5,,5,52.15%,1,4,4,4,4,4,N/A
+OA11,Yes,None,No,13.74,1.09,No Cues,Backward,5,,5,64.02%,0,4,4,4,4,4,N/A
+OA11,Yes,None,No,13.74,1.09,Collocated,Forward,7,,4,56.84%,1,5.5,6,6,5,5,Yes
+OA11,Yes,None,No,13.74,1.09,Collocated,Backward,7,,4,59.46%,1,5.5,6,6,5,5,Yes
+OA11,Yes,None,No,13.74,1.09,HUD,Forward,6,,2,46.13%,1,6,5,6,6,6,No
+OA11,Yes,None,No,13.74,1.09,HUD,Backward,6,,2,41.60%,1,6,5,6,6,6,No
+OA11,Yes,None,No,13.74,1.09,Combined,Forward,3,,3,46.90%,1,5.5,6,6,5,5,No
+OA11,Yes,None,No,13.74,1.09,Combined,Backward,3,,3,48.48%,1,5.5,6,6,5,5,No
+OA11,Yes,None,No,13.74,1.09,Control (last),Forward,1,24.87,6,55.23%,0,5,6,5,5,5,N/A
+OA11,Yes,None,No,13.74,1.09,Control (last),Backward,1,25.71,6,53.42%,0,5,6,5,5,5,N/A
+OA12,Yes,None,No,11.37,1.32,Control (first),Forward,4,17.53,1,64.86%,0,5,5,4,5,5,N/A
+OA12,Yes,None,No,11.37,1.32,Control (first),Backward,4,16.18,1,70.27%,0,5,5,4,5,5,N/A
+OA12,Yes,None,No,11.37,1.32,No Cues,Forward,7,,5,73.32%,0,3,3,3,2,3,N/A
+OA12,Yes,None,No,11.37,1.32,No Cues,Backward,7,,5,79.91%,0,3,3,3,2,3,N/A
+OA12,Yes,None,No,11.37,1.32,Collocated,Forward,5,,2,62.41%,0,6,6,6,7,6,No
+OA12,Yes,None,No,11.37,1.32,Collocated,Backward,5,,2,74.99%,0,6,6,6,7,6,No
+OA12,Yes,None,No,11.37,1.32,HUD,Forward,6,,4,75.68%,0,4,4,5,4,4,No
+OA12,Yes,None,No,11.37,1.32,HUD,Backward,6,,4,83.43%,0,4,4,5,4,4,No
+OA12,Yes,None,No,11.37,1.32,Combined,Forward,1,,3,69.79%,0,7,7,7,7,7,Yes
+OA12,Yes,None,No,11.37,1.32,Combined,Backward,1,,3,79.86%,0,7,7,7,7,7,Yes
+OA12,Yes,None,No,11.37,1.32,Control (last),Forward,8,16.19,6,70.23%,0,4.5,4,5,4,5,N/A
+OA12,Yes,None,No,11.37,1.32,Control (last),Backward,8,15.4,6,73.83%,0,4.5,4,5,4,5,N/A
+OA13,Yes,None,Yes,11.17,1.34,Control (first),Forward,5,18.76,1,59.53%,0,7,7,7,7,7,N/A
+OA13,Yes,None,Yes,11.17,1.34,Control (first),Backward,5,16.84,1,66.32%,0,7,7,7,7,7,N/A
+OA13,Yes,None,Yes,11.17,1.34,No Cues,Forward,4,,2,60.83%,2,3.5,2,3,4,4,N/A
+OA13,Yes,None,Yes,11.17,1.34,No Cues,Backward,4,,2,62.98%,0,3.5,2,3,4,4,N/A
+OA13,Yes,None,Yes,11.17,1.34,Collocated,Forward,3,,3,60.52%,0,7,7,7,7,7,No
+OA13,Yes,None,Yes,11.17,1.34,Collocated,Backward,3,,3,65.26%,0,7,7,7,7,7,No
+OA13,Yes,None,Yes,11.17,1.34,HUD,Forward,1,,5,52.06%,0,4,4,4,4,5,No
+OA13,Yes,None,Yes,11.17,1.34,HUD,Backward,1,,5,57.89%,0,4,4,4,4,5,No
+OA13,Yes,None,Yes,11.17,1.34,Combined,Forward,2,,4,58.00%,0,5.5,7,7,4,4,Yes
+OA13,Yes,None,Yes,11.17,1.34,Combined,Backward,2,,4,59.75%,0,5.5,7,7,4,4,Yes
+OA13,Yes,None,Yes,11.17,1.34,Control (last),Forward,6,19.85,6,56.26%,0,7,7,7,4,7,N/A
+OA13,Yes,None,Yes,11.17,1.34,Control (last),Backward,6,19.28,6,57.92%,0,7,7,7,4,7,N/A
+OA14,No,None,No,11.54,1.3,Control (first),Forward,7,15.95,1,72.37%,0,4.5,6,5,4,2,N/A
+OA14,No,None,No,11.54,1.3,Control (first),Backward,7,16.5,1,69.95%,0,4.5,6,5,4,2,N/A
+OA14,No,None,No,11.54,1.3,No Cues,Forward,2,,2,59.34%,1,4,4,4,4,3,N/A
+OA14,No,None,No,11.54,1.3,No Cues,Backward,2,,2,62.40%,0,4,4,4,4,3,N/A
+OA14,No,None,No,11.54,1.3,Collocated,Forward,6,,4,54.82%,0,6,6,6,7,6,Yes
+OA14,No,None,No,11.54,1.3,Collocated,Backward,6,,4,56.53%,0,6,6,6,7,6,Yes
+OA14,No,None,No,11.54,1.3,HUD,Forward,8,,5,37.34%,1,2,2,3,2,2,No
+OA14,No,None,No,11.54,1.3,HUD,Backward,8,,5,39.51%,0,2,2,3,2,2,No
+OA14,No,None,No,11.54,1.3,Combined,Forward,1,,3,53.02%,0,3,3,3,3,3,No
+OA14,No,None,No,11.54,1.3,Combined,Backward,1,,3,51.81%,2,3,3,3,3,3,No
+OA14,No,None,No,11.54,1.3,Control (last),Forward,3,17.23,6,66.99%,0,6.5,7,7,6,6,N/A
+OA14,No,None,No,11.54,1.3,Control (last),Backward,3,17.76,6,64.99%,1,6.5,7,7,6,6,N/A
+OA15,No,None,No,10.26,1.46,Control (first),Forward,3,13.14,1,78.10%,0,6.5,7,6,7,5,N/A
+OA15,No,None,No,10.26,1.46,Control (first),Backward,3,12.97,1,79.12%,0,6.5,7,6,7,5,N/A
+OA15,No,None,No,10.26,1.46,No Cues,Forward,6,,5,72.48%,1,4,4,4,4,4,N/A
+OA15,No,None,No,10.26,1.46,No Cues,Backward,6,,5,73.47%,0,4,4,4,4,4,N/A
+OA15,No,None,No,10.26,1.46,Collocated,Forward,7,,3,66.08%,1,4,4,4,6,4,No
+OA15,No,None,No,10.26,1.46,Collocated,Backward,7,,3,70.44%,0,4,4,4,6,4,No
+OA15,No,None,No,10.26,1.46,HUD,Forward,8,,2,60.52%,1,3,3,3,3,4,No
+OA15,No,None,No,10.26,1.46,HUD,Backward,8,,2,64.71%,0,3,3,3,3,4,No
+OA15,No,None,No,10.26,1.46,Combined,Forward,1,,4,62.97%,1,6,6,6,6,5,Yes
+OA15,No,None,No,10.26,1.46,Combined,Backward,1,,4,66.61%,1,6,6,6,6,5,Yes
+OA15,No,None,No,10.26,1.46,Control (last),Forward,5,12.24,6,83.84%,1,7,7,7,7,6,N/A
+OA15,No,None,No,10.26,1.46,Control (last),Backward,5,11.56,6,88.78%,0,7,7,7,7,6,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Control (first),Forward,2,20.21,1,59.93%,0,4,4,4,5,4,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Control (first),Backward,2,19.95,1,60.71%,0,4,4,4,5,4,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,No Cues,Forward,4,,2,49.72%,1,4,4,4,5,4,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,No Cues,Backward,4,,2,52.77%,0,4,4,4,5,4,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Collocated,Forward,8,,3,53.25%,0,7,7,7,7,7,Yes
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Collocated,Backward,8,,3,55.65%,0,7,7,7,7,7,Yes
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,HUD,Forward,5,,5,42.38%,0,4.5,5,5,4,4,No
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,HUD,Backward,5,,5,48.71%,0,4.5,5,5,4,4,No
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Combined,Forward,7,,4,37.97%,1,4.5,5,5,4,3,No
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Combined,Backward,7,,4,43.19%,0,4.5,5,5,4,3,No
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Control (last),Forward,6,18.43,6,65.72%,0,4,4,4,5,4,N/A
+OA16,Yes,"3 shrink, 1 left",No,12.11,1.24,Control (last),Backward,6,18.35,6,66.01%,0,4,4,4,5,4,N/A
+OA17,Yes,None,Yes,13.06,1.15,Control (first),Forward,6,27.56,1,47.37%,2,3,5,4,2,2,N/A
+OA17,Yes,None,Yes,13.06,1.15,Control (first),Backward,6,20.22,1,64.56%,3,3,5,4,2,2,N/A
+OA17,Yes,None,Yes,13.06,1.15,No Cues,Forward,2,,5,47.74%,1,3,3,3,3,4,N/A
+OA17,Yes,None,Yes,13.06,1.15,No Cues,Backward,2,,5,59.32%,1,3,3,3,3,4,N/A
+OA17,Yes,None,Yes,13.06,1.15,Collocated,Forward,7,,2,53.17%,0,7,7,7,7,3,Yes
+OA17,Yes,None,Yes,13.06,1.15,Collocated,Backward,7,,2,56.47%,0,7,7,7,7,3,Yes
+OA17,Yes,None,Yes,13.06,1.15,HUD,Forward,1,,4,33.07%,3,4,4,4,4,2,No
+OA17,Yes,None,Yes,13.06,1.15,HUD,Backward,1,,4,46.71%,1,4,4,4,4,2,No
+OA17,Yes,None,Yes,13.06,1.15,Combined,Forward,4,,3,42.70%,2,5,7,5,5,2,No
+OA17,Yes,None,Yes,13.06,1.15,Combined,Backward,4,,3,44.01%,1,5,7,5,5,2,No
+OA17,Yes,None,Yes,13.06,1.15,Control (last),Forward,3,25.57,6,51.06%,1,3.5,5,3,3,4,N/A
+OA17,Yes,None,Yes,13.06,1.15,Control (last),Backward,3,27.95,6,46.71%,2,3.5,5,3,3,4,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,Control (first),Forward,1,17.4,1,77.26%,0,5,5,5,4,7,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,Control (first),Backward,1,16.76,1,80.21%,0,5,5,5,4,7,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,No Cues,Forward,6,,2,71.72%,1,4,4,4,4,4,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,No Cues,Backward,6,,2,69.68%,0,4,4,4,4,4,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,Collocated,Forward,5,,3,71.33%,1,5,6,4,7,4,No
+OA18,No,3 shrink,Yes,13.44,1.12,Collocated,Backward,5,,3,72.85%,0,5,6,4,7,4,No
+OA18,No,3 shrink,Yes,13.44,1.12,HUD,Forward,2,,4,71.45%,2,5,6,7,4,4,Yes
+OA18,No,3 shrink,Yes,13.44,1.12,HUD,Backward,2,,4,71.97%,0,5,6,7,4,4,Yes
+OA18,No,3 shrink,Yes,13.44,1.12,Combined,Forward,8,,5,70.52%,1,5.5,4,7,7,4,No
+OA18,No,3 shrink,Yes,13.44,1.12,Combined,Backward,8,,5,72.28%,1,5.5,4,7,7,4,No
+OA18,No,3 shrink,Yes,13.44,1.12,Control (last),Forward,4,18.13,6,74.15%,3,5,5,5,4,7,N/A
+OA18,No,3 shrink,Yes,13.44,1.12,Control (last),Backward,4,17.8,6,75.52%,0,5,5,5,4,7,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Control (first),Forward,1,20.65,1,71.00%,0,7,7,7,7,7,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Control (first),Backward,1,17.48,1,83.88%,0,7,7,7,7,7,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,No Cues,Forward,6,,3,68.63%,2,3.5,3,3,4,4,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,No Cues,Backward,6,,3,73.66%,0,3.5,3,3,4,4,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Collocated,Forward,3,,5,70.87%,0,5,5,5,6,5,Yes
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Collocated,Backward,3,,5,74.17%,0,5,5,5,6,5,Yes
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,HUD,Forward,8,,4,36.60%,1,3,3,3,1,3,No
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,HUD,Backward,8,,4,57.20%,0,3,3,3,1,3,No
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Combined,Forward,2,,2,49.31%,2,4.5,4,5,5,3,No
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Combined,Backward,2,,2,55.90%,1,4.5,4,5,5,3,No
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Control (last),Forward,4,16.45,6,89.13%,1,6.5,7,5,7,6,N/A
+OA19,Yes,"3 shrink, 2 left",No,14.66,1.02,Control (last),Backward,4,15.83,6,92.62%,0,6.5,7,5,7,6,N/A
+OA20,Yes,None,No,13.23,1.13,Control (first),Forward,1,34.24,1,38.63%,0,5,4,5,5,5,N/A
+OA20,Yes,None,No,13.23,1.13,Control (first),Backward,1,28.09,1,47.09%,0,5,4,5,5,5,N/A
+OA20,Yes,None,No,13.23,1.13,No Cues,Forward,4,,3,36.21%,1,4,4,4,4,4,N/A
+OA20,Yes,None,No,13.23,1.13,No Cues,Backward,4,,3,34.26%,1,4,4,4,4,4,N/A
+OA20,Yes,None,No,13.23,1.13,Collocated,Forward,8,,5,42.64%,1,6.5,6,7,6,7,No
+OA20,Yes,None,No,13.23,1.13,Collocated,Backward,8,,5,48.87%,0,6.5,6,7,6,7,No
+OA20,Yes,None,No,13.23,1.13,HUD,Forward,7,,4,31.45%,0,5.5,6,5,5,6,No
+OA20,Yes,None,No,13.23,1.13,HUD,Backward,7,,4,39.64%,0,5.5,6,5,5,6,No
+OA20,Yes,None,No,13.23,1.13,Combined,Forward,6,,2,39.16%,0,6.5,6,7,6,7,Yes
+OA20,Yes,None,No,13.23,1.13,Combined,Backward,6,,2,46.04%,0,6.5,6,7,6,7,Yes
+OA20,Yes,None,No,13.23,1.13,Control (last),Forward,5,36.43,6,36.31%,0,4.5,4,5,4,5,N/A
+OA20,Yes,None,No,13.23,1.13,Control (last),Backward,5,24.58,6,53.81%,0,4.5,4,5,4,5,N/A

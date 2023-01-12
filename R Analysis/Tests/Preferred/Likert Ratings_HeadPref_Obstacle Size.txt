@@ -1,0 +1,9 @@
+[1] "Friedman Test for Obstacle Size - Head Preference"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition  med        sd lower  mid upper  iqr max_range min_range
+1 Collocated  2.0 0.7071068  2.00  2.0     3 1.00     4.500     0.500
+2   Combined  2.0 1.1259916  1.00  2.0     3 2.00     6.000    -2.000
+3        HUD  0.0 0.6408699 -0.25  0.0     0 0.25     0.375    -0.625
+4    No Cues -0.5 0.8864053 -1.25 -0.5     0 1.25     1.875    -3.125
+[1] "---------------------"
+[1] "Graph Data"

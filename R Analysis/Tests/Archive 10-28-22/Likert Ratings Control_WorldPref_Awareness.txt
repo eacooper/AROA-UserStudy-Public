@@ -1,0 +1,8 @@
+[1] "Friedman Test for Control Awareness - World Preference"
+[1] "Friedman Test for Median - World Preference"
+[1] "Friedman Test for Confidence - World Preference"
+[1] "Friedman Test for Obstacle Location - World Preference"
+[1] "Friedman Test for Obstacle Size - World Preference"
+[1] "Friedman Test for Awareness - World Preference"
+[1] "Friedman Test for Control Median - Head Preference"
+[1] "Excess sink detected."

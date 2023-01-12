@@ -1,0 +1,8 @@
+"","Test","Chi Sq","p value","Corrected p threshold","Result"
+"1","Omnibus","14.4841","0.0023","0.05","PASS"
+"2","No Cues vs Collocated","9.941","0.002","0.008","PASS"
+"3","No Cues vs HUD","1.667","0.197","0.008","FAIL"
+"4","No Cues vs Combined","1.667","0.197","0.008","FAIL"
+"5","Collocated vs HUD","8.067","0.005","0.008","PASS"
+"6","Collocated vs Combined","1.923","0.166","0.008","FAIL"
+"7","HUD vs Combined","2.273","0.132","0.008","FAIL"

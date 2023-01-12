@@ -1,0 +1,6 @@
+[1] "Friedman Test for Median Ratings_Preferred"
+[1] "Friedman Test for Confidence Ratings_Preferred"
+[1] "Friedman Test for Obstacle Location Ratings_Preferred"
+[1] "Friedman Test for Obstacle Size Ratings_Preferred"
+[1] "Friedman Test for Awareness Ratings_Preferred"
+[1] "Friedman Test for Control Median - World Preference"

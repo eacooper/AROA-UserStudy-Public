@@ -1,0 +1,7 @@
+[1] "Friedman Test for Awareness - World Preference"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition  med       sd
+1 Collocated  1.0 1.642245
+2   Combined -1.0 1.302678
+3        HUD -1.0 1.556998
+4    No Cues -0.5 1.114641

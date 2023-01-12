@@ -1,0 +1,57 @@
+[1] "Friedman Test for Confidence Ratings"
+[1] "----------------MEDIAN VALUES----------------"
+   Condition med        sd
+1 Collocated   2 1.2258187
+2   Combined   2 1.7733406
+3        HUD   0 1.2523662
+4    No Cues  -1 0.9986833
+[1] ""
+[1] "----------------Single Sample Wilcoxon Signed-Rank Test----------------"
+[1] "Comparing No Cues to a value of 0, representing Control."
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  dataSet[[targetRating]][dataSet$Condition == "No Cues"]
+V = 0, p-value = 0.001977
+alternative hypothesis: true location is not equal to 0
+
+[1] "Wilcoxon test with p-value of 0.002 tested against default p value 0.05 ; result = PASS"
+[1] ""
+[1] "----------------FRIEDMAN TESTS----------------"
+[1] "Omnibus Friedman Test"
+
+	Friedman rank sum test
+
+data:  tmp_rating, tmp_cond and tmp_subj
+Friedman chi-squared = 31.803, df = 3, p-value = 5.757e-07
+
+[1] "Collocated vs HUD"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 136, p-value = 0.0004088
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "Collocated vs Combined"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 55.5, p-value = 0.2013
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "HUD vs Combined"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  tmp_rating[tmp_cond == con1] and tmp_rating[tmp_cond == con2]
+V = 14.5, p-value = 0.005248
+alternative hypothesis: true location shift is not equal to 0
+
+[1] "----------------FRIEDMAN RESULTS----------------"
+[1] "Omnibus test with chi-squared value of 31.8034 and p-value of <<0.001 tested against default p value 0.05  result = PASS"
+[1] "Bonferroni-corrected p value threshold based on default p value of  0.05 divided by 3 tests is set at 0.017"
+[1] "Followup for Collocated vs HUD with chi-squared value of 136 and p-value of <<0.001 = PASS"
+[1] "Followup for Collocated vs Combined with chi-squared value of 55.5 and p-value of 0.201 = FAIL"
+[1] "Followup for HUD vs Combined with chi-squared value of 14.5 and p-value of 0.005 = PASS"
