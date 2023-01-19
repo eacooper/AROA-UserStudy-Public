@@ -42,7 +42,7 @@ source("compareCSVs.R")
 # Note that we must load in both the Summary Statistics generated from the Matlab code
 # as well as the Supplementary Data added separately.
 DataMain = read.csv("Summary Statistics.csv", header=T)
-DataSup = read.csv("AROA Main Study 2_Participant Tracking - Supplementary Data.csv", header=T)
+DataSup = read.csv("Supplementary Data.csv", header=T)
 
 #Set unique IDs to enable a join
 DataMain$ID = paste(DataMain$Participant.ID, DataMain$Condition, DataMain$Direction)
@@ -75,8 +75,6 @@ colnames(Data) <- c('Participant.ID', 'Eye.calibration.success', 'HUD.adjustment
 
 write.csv(Data, "Data Combined.csv", row.names = TRUE)
 
-
-#DataOld = read.csv("AROA Main Study 2_Participant Tracking - Experiment Data_8-10-22.csv",header=T)
 
 #Remove percentage signs in PPWS, commas in rotation
 Data$PPWS <- gsub("%", "", Data$PPWS)
@@ -321,7 +319,7 @@ Data_ctrl <- Data %>% filter((Condition == "Control (first)" | Condition == "Con
 
 
 
-# Clear any outstanding sinks
+# Clear any outstanding sinks. (Sinks capture console output to a text file.)
 while (sink.number() > 0) {
   sink(file = NULL)
   print("Excess sink detected.")
@@ -335,7 +333,7 @@ pVal = 0.05
 
 # Likert Ratings --------------------------------------------------------------------------------------------------------------------------
 
-
+#Run Friedman tests on control conditions.
 friedmanControl("Control Median Ratings", "./Tests./Likert Ratings Control_Median", "./Plots./Likert", Data_ctrl, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE, type = "Wilcoxon")
 friedmanControl("Control Confidence Ratings", "./Tests./Likert Ratings Control_Confidence", "./Plots./Likert", Data_ctrl, "Confidence", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanControl("Control Obstacle Location", "./Tests./Likert Ratings Control_Obstacle Location", "./Plots./Likert", Data_ctrl, "Obstacle.location", "runTests" = TRUE, "addJitter" = FALSE)
@@ -343,12 +341,7 @@ friedmanControl("Control Obstacle Size Ratings", "./Tests./Likert Ratings Contro
 friedmanControl("Control Awareness Ratings", "./Tests./Likert Ratings Control_Awareness", "./Plots./Likert", Data_ctrl, "Awareness", "runTests" = TRUE, "addJitter" = FALSE)
 
 
-# Single Sample Wilcoxon Signed-Rank Test - No Cues vs. Control
-# This determines whether No Cues is significantly different than 0 (control)
-# Baked into friedmanTests
-
-
-#Run basic Friedman tests
+#Run Friedman tests on experimental conditions.
 friedmanTests("Median Ratings", "./Tests./Likert Ratings_Median", "./Plots./Likert", Data_avg, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanTests("Confidence Ratings", "./Tests./Likert Ratings_Confidence", "./Plots./Likert", Data_avg, "Confidence", "runTests" = TRUE, "addJitter" = FALSE, followup = "Wilcox")
 friedmanTests("Obstacle Location Ratings",  "./Tests./Likert Ratings_Obstacle Location", "./Plots./Likert", Data_avg, "Obstacle.location", "runTests" = TRUE, "addJitter" = FALSE)
