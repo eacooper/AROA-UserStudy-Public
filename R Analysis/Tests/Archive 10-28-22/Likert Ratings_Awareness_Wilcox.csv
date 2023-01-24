@@ -1,5 +1,0 @@
-"","Test","V","p value","Corrected p threshold","Result"
-"1","Omnibus","14.4841","0.0023","0.05","PASS"
-"2","Collocated vs HUD","112","0.003","0.017","PASS"
-"3","Collocated vs Combined","74.5","0.044","0.017","FAIL"
-"4","HUD vs Combined","16.5","0.12","0.017","FAIL"

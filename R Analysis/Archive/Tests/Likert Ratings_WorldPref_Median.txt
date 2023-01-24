@@ -1,7 +1,0 @@
-[1] "Friedman Test for Median - World Preference"
-[1] "----------------MEDIAN VALUES----------------"
-   Condition   med        sd
-1 Collocated  2.00 1.4215602
-2   Combined  0.50 1.7725816
-3        HUD -0.50 1.3892171
-4    No Cues -0.75 0.8918826

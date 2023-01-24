@@ -24,26 +24,26 @@
 [1] "---------------------"
 [1] "Graph Data"
 [[1]]
-   colour     ymin    lower   middle    upper     ymax outliers notchupper notchlower x flipped_aes PANEL group ymin_final ymax_final  xmin
-1 #F8766D 15.53000 16.72625 19.37750 21.70750 25.32500            22.16010   16.59490 1       FALSE     1     1   15.53000   25.32500 0.625
-2 #A3A500 14.39996 17.53500 18.84000 21.53749 24.64001            21.07585   16.60415 2       FALSE     1     2   14.39996   24.64001 1.625
-3 #00BF7D 15.49005 17.19251 20.70499 23.17748 26.13001            24.04829   17.36170 3       FALSE     1     3   15.49005   26.13001 2.625
-4 #00B0F6 14.06000 19.96996 27.15000 28.83746 33.66003            32.10351   22.19648 4       FALSE     1     4   14.06000   33.66003 3.625
-5 #E76BF3 14.75000 18.74501 22.77001 24.81507 30.00000            26.16083   19.37918 5       FALSE     1     5   14.75000   30.00000 4.625
-   xmax xid newx new_width weight  fill size alpha shape linetype
-1 1.375   1    1      0.75      1 white  0.5    NA    19    solid
-2 2.375   2    2      0.75      1 white  0.5    NA    19    solid
-3 3.375   3    3      0.75      1 white  0.5    NA    19    solid
-4 4.375   4    4      0.75      1 white  0.5    NA    19    solid
-5 5.375   5    5      0.75      1 white  0.5    NA    19    solid
+   colour     ymin    lower   middle    upper     ymax outliers notchupper notchlower x flipped_aes PANEL group ymin_final ymax_final
+1 #F8766D 15.53000 16.72625 19.37750 21.70750 25.32500            22.16010   16.59490 1       FALSE     1     1   15.53000   25.32500
+2 #A3A500 14.39996 17.53500 18.84000 21.53749 24.64001            21.07585   16.60415 2       FALSE     1     2   14.39996   24.64001
+3 #00BF7D 15.49005 17.19251 20.70499 23.17748 26.13001            24.04829   17.36170 3       FALSE     1     3   15.49005   26.13001
+4 #00B0F6 14.06000 19.96996 27.15000 28.83746 33.66003            32.10351   22.19648 4       FALSE     1     4   14.06000   33.66003
+5 #E76BF3 14.75000 18.74501 22.77001 24.81507 30.00000            26.16083   19.37918 5       FALSE     1     5   14.75000   30.00000
+   xmin  xmax xid newx new_width weight  fill alpha shape linetype linewidth
+1 0.625 1.375   1    1      0.75      1 white    NA    19    solid       0.5
+2 1.625 2.375   2    2      0.75      1 white    NA    19    solid       0.5
+3 2.625 3.375   3    3      0.75      1 white    NA    19    solid       0.5
+4 3.625 4.375   4    4      0.75      1 white    NA    19    solid       0.5
+5 4.625 5.375   5    5      0.75      1 white    NA    19    solid       0.5
 
 [[2]]
-   colour x group        y ymin ymax PANEL flipped_aes size linetype shape fill alpha stroke
-1 #F8766D 1     1 19.75563   NA   NA     1       FALSE    1        1    20   NA    NA      1
-2 #A3A500 2     2 19.43125   NA   NA     1       FALSE    1        1    20   NA    NA      1
-3 #00BF7D 3     3 20.41126   NA   NA     1       FALSE    1        1    20   NA    NA      1
-4 #00B0F6 4     4 24.96873   NA   NA     1       FALSE    1        1    20   NA    NA      1
-5 #E76BF3 5     5 22.34876   NA   NA     1       FALSE    1        1    20   NA    NA      1
+   colour x group        y ymin ymax PANEL flipped_aes size linewidth linetype shape fill alpha stroke
+1 #F8766D 1     1 19.75563   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+2 #A3A500 2     2 19.43125   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+3 #00BF7D 3     3 20.41126   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+4 #00B0F6 4     4 24.96873   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+5 #E76BF3 5     5 22.34876   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
 
 [1] "-----------------------ANOVA-----------------------"
 [1] "Overall ANOVA"

@@ -1,3 +1,0 @@
-[1] "Friedman Test for Control Obstacle Size  - Head Preference"
-[1] "Friedman Test for Control Awareness - Head Preference"
-[1] "Excess sink detected."

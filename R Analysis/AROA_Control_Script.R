@@ -35,7 +35,6 @@ library(rstatix)
 source("friedmanTests.R")
 source("friedmanControl.R")
 source("plotAndAnova.R")
-source("compareCSVs.R")
 
 
 # load in data
@@ -334,7 +333,7 @@ pVal = 0.05
 # Likert Ratings --------------------------------------------------------------------------------------------------------------------------
 
 #Run Friedman tests on control conditions.
-friedmanControl("Control Median Ratings", "./Tests./Likert Ratings Control_Median", "./Plots./Likert", Data_ctrl, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE, type = "Wilcoxon")
+friedmanControl("Control Median Ratings", "./Tests./Likert Ratings Control_Median", "./Plots./Likert", Data_ctrl, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanControl("Control Confidence Ratings", "./Tests./Likert Ratings Control_Confidence", "./Plots./Likert", Data_ctrl, "Confidence", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanControl("Control Obstacle Location", "./Tests./Likert Ratings Control_Obstacle Location", "./Plots./Likert", Data_ctrl, "Obstacle.location", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanControl("Control Obstacle Size Ratings", "./Tests./Likert Ratings Control_Obstacle Size", "./Plots./Likert", Data_ctrl, "Obstacle.size", "runTests" = TRUE, "addJitter" = FALSE)
@@ -343,7 +342,7 @@ friedmanControl("Control Awareness Ratings", "./Tests./Likert Ratings Control_Aw
 
 #Run Friedman tests on experimental conditions.
 friedmanTests("Median Ratings", "./Tests./Likert Ratings_Median", "./Plots./Likert", Data_avg, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE)
-friedmanTests("Confidence Ratings", "./Tests./Likert Ratings_Confidence", "./Plots./Likert", Data_avg, "Confidence", "runTests" = TRUE, "addJitter" = FALSE, followup = "Wilcox")
+friedmanTests("Confidence Ratings", "./Tests./Likert Ratings_Confidence", "./Plots./Likert", Data_avg, "Confidence", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanTests("Obstacle Location Ratings",  "./Tests./Likert Ratings_Obstacle Location", "./Plots./Likert", Data_avg, "Obstacle.location", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanTests("Obstacle Size Ratings", "./Tests./Likert Ratings_Obstacle Size", "./Plots./Likert", Data_avg, "Obstacle.size", "runTests" = TRUE, "addJitter" = FALSE)
 friedmanTests("Awareness Ratings", "./Tests./Likert Ratings_Awareness", "./Plots./Likert", Data_avg, "Awareness", "runTests" = TRUE, "addJitter" = FALSE)
@@ -714,160 +713,3 @@ plotAndAnova("Z Rotation (Roll) - Low Acuity", "./Tests./Acuity./Rotation Z per 
 plotAndAnova("Z Rotation (Roll) - High Acuity", "./Tests./Acuity./Rotation Z per second_High Acuity", "./Plots./Acuity./Rotation Per Second",
              Data_avg_noErr_HighAcuity, inclControl = FALSE, "rotSpeedZ", "Rotation (degrees per second)")
 
-
-
-# Comparison --------------------------------------------------------------
-
-# Create spreadsheet that compares original condition against acuity conditions
-
-compareCSVs("./Tests", "./Tests./Acuity", "./Tests./Acuity Comparisons")
-
-
-
-#UNUSED CODE -----------------------
-
-# # Example of how to graph control likert conditions
-# graph_Ratings_ctrl <- ddply(Data_ctrl, .(Condition), summarise, med = median(Median.Rating))
-# 
-# FigLikertCtrl <-  Data_ctrl %>%
-#   #mutate(Condition = factor(Condition, levels=defaultOrder)) %>%
-#   ggplot(aes(x = Condition, y = Median.Rating, color = Condition))+
-#   geom_boxplot(outlier.shape = NA)+
-#   #geom_jitter(width = 0.15, height = 0)+
-#   theme(legend.position = 'none')+
-#   ggtitle("Median Likert Ratings for Control Conditions (1 to 7)")
-#   #geom_label(data = graph_Ratings_ctrl, aes(x = Condition, y = med, label = med, fontface="bold"), size = 5)
-# 
-# print(FigLikertCtrl)
-# ggsave(paste0(title,".svg"), path = "./Plots./Likert")
-# ggsave(paste0(title,".eps"), path = "./Plots./Likert")
-# ggsave(paste0(title,".png"), path = "./Plots./Likert")
-
-
-#Friedman tests with question as title
-
-# q1 = "I felt more confident in my ability to navigate this hallway compared to when I was not wearing the HoloLens."
-# q2 = "It was easier to figure out where each obstacle was compared to when I was not wearing the HoloLens."
-# q3 = "It was harder to tell how big each obstacle was compared to when I was not wearing the HoloLens."
-# q4 = "I felt more aware of my surroundings while navigating the hallway compared to when I was not wearing the HoloLens."
-# friedmanTests("Median Ratings", "Median Ratings", "./Tests./Likert Ratings_Median", Data_avg, "Median.Rating", "runTests" = TRUE, "addJitter" = FALSE)
-# friedmanTests("Confidence Ratings", q1, "./Tests./Likert Ratings_Confidence", Data_avg, "Confidence", "runTests" = TRUE, "addJitter" = FALSE)
-# friedmanTests("Obstacle Location Ratings", q2, "./Tests./Likert Ratings_Obstacle Location", Data_avg, "Obstacle.location", "runTests" = TRUE, "addJitter" = FALSE)
-# friedmanTests("Obstacle Size Ratings", q3, "./Tests./Likert Ratings_Obstacle Size", Data_avg, "Obstacle.size", "runTests" = TRUE, "addJitter" = FALSE)
-# friedmanTests("Awareness Ratings", q4, "./Tests./Likert Ratings_Awareness", Data_avg, "Awareness", "runTests" = TRUE, "addJitter" = FALSE)
-
-
-
-
-
-# #Plot total time by participant ID to find outliers
-
-# graph_distByID <- ddply(Data_avg_noErr, .(Participant.ID), summarise, mean = mean(Calibrated.Time))
-# 
-# figTimeByID <-  Data_avg_noErr %>%
-#   #mutate(Participant.ID = factor(Participant.ID, levels=defaultOrder )) %>%
-#   ggplot(aes(x = Participant.ID, y = Calibrated.Time, color = Participant.ID))+
-#   geom_point()+
-#   #geom_jitter(width = 0.15)+
-#   theme(legend.position = 'none')+
-#   ggtitle("Time by Participant ID")+
-#   #geom_label(data = graph_RotByID, aes(x = Participant.ID, y = mean, label = round(mean, digits=2), fontface="bold"), size = 5)+
-#   scale_y_continuous(name="Time (s)")
-# 
-# print(figTimeByID)
-
-
-
-
-# #Plot total distance by participant ID to find outliers
-
-# graph_distByID <- ddply(Data_exp, .(Participant.ID), summarise, mean = mean(Calibrated.Distance))
-# 
-# figDistByID <-  Data_exp %>%
-#   #mutate(Participant.ID = factor(Participant.ID, levels=defaultOrder )) %>%
-#   ggplot(aes(x = Participant.ID, y = Calibrated.Distance, color = Participant.ID))+
-#   geom_point()+
-#   #geom_jitter(width = 0.15)+
-#   theme(legend.position = 'none')+
-#   ggtitle("Distance Travelled by Participant ID")+
-#   #geom_label(data = graph_RotByID, aes(x = Participant.ID, y = mean, label = round(mean, digits=2), fontface="bold"), size = 5)+
-#   scale_y_continuous(name="Distance travelled (m)")
-# 
-# print(figDistByID)
-
-# #Plot distance for forward only 
-# graph_distance_forward <- ddply(Data_noErr %>% filter(Direction == "Forward" & Condition != "Control (first)" & Condition != "Control (last)"), 
-#                                 .(Condition), summarise, mean = mean(Calibrated.Distance))
-# 
-# FigDistanceForward <-  Data_noErr %>% filter(Direction == "Forward" & Condition != "Control (first)" & Condition != "Control (last)") %>%
-#   mutate(Condition = factor(Condition, levels=defaultOrder )) %>%
-#   ggplot(aes(x = Condition, y = Calibrated.Distance, color = Condition))+
-#   geom_boxplot(outlier.shape = NA)+
-#   geom_jitter(width = 0.15, height = 0)+
-#   theme(legend.position = 'none')+
-#   expand_limits(y = c(15,20))+
-#   ggtitle("Distance by Condition - Forward Only")+
-#   geom_label(data = graph_distance_forward, aes(x = Condition, y = mean, label = round(mean, digits=2), fontface="bold"), size = 5)+
-#   scale_y_continuous(name="Total Distance Travelled (m)")
-# 
-# print(FigDistanceForward)
-# 
-# #Plot distance for backward only
-# graph_distance_backward <- ddply(Data_noErr %>% filter(Direction == "Backward" & Condition != "Control (first)" & Condition != "Control (last)"), 
-#                                  .(Condition), summarise, mean = mean(Calibrated.Distance))
-# 
-# FigDistanceBackward <-  Data_noErr %>% filter(Direction == "Backward" & Condition != "Control (first)" & Condition != "Control (last)") %>%
-#   mutate(Condition = factor(Condition, levels=defaultOrder )) %>%
-#   ggplot(aes(x = Condition, y = Calibrated.Distance, color = Condition))+
-#   geom_boxplot(outlier.shape = NA)+
-#   geom_jitter(width = 0.15, height = 0)+
-#   theme(legend.position = 'none')+
-#   expand_limits(y = c(15,20))+
-#   ggtitle("Distance by Condition - Backward Only")+
-#   geom_label(data = graph_distance_backward, aes(x = Condition, y = mean, label = round(mean, digits=2), fontface="bold"), size = 5)+
-#   scale_y_continuous(name="Total Distance Travelled (m)")
-# 
-# print(FigDistanceBackward)
-
-
-# 
-# 
-#Filter data (Quant)
-# Data_avg_noErr_Pref <- Data_avg_noErr %>% filter(Condition == "Control" | Condition == "No Cues" | Preferred.Condition == "Yes")
-# 
-# #Time
-# plotAndAnova("Time by Condition_Preferred", "./Tests./Time_Preferred", "./Plots./Time", Data_avg_noErr_Pref, TRUE, "Calibrated.Time", "Time (s)", c(10,40), "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #PPWS
-# plotAndAnova("PPWS by Condition_Preferred", "./Tests./PPWS_Preferred", "./Plots./PPWS", Data_avg_noErr_Pref, TRUE, "PPWS", "Percentage of Preferred Walking Speed", "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #Errors
-# plotAndAnova("Errors by Condition_Preferred", "./Tests./Errors_Preferred", "./Plots./Errors", Data_avg_noErr_Pref, TRUE, "Errors", "Number of Errors", "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# 
-# #Distance
-# plotAndAnova("Distance by Condition_Preferred", "./Tests./Distance_Preferred", "./Plots./Distance", 
-#              Data_avg_noErr_Pref, FALSE, "Calibrated.Distance", "Total Distance Walked (m)", c(15, 17), "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #Average Speed
-# plotAndAnova("Average Speed by Condition_Preferred", "./Tests./Speed_Preferred", "./Plots./Speed", 
-#              Data_avg_noErr_Pref, FALSE, "Average.Speed", "Average Speed (m/s)", "runTests" = FALSE, "addJitter" = TRUE)
-
-#Rotation
-
-#X Rotation (Pitch)
-# plotAndAnova("X Rotation (Pitch)_Preferred", "./Tests./Rotation X_Preferred", "./Plots./Rotation", 
-#              Data_avg_noErr_Pref, FALSE, "X.Pitch", "Absolute Rotation (degrees)", c(NA, 1000), "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #Y Rotation (Yaw)
-# plotAndAnova("Y Rotation (Yaw)_Preferred", "./Tests./Rotation Y_Preferred", "./Plots./Rotation", 
-#              Data_avg_noErr_Pref, FALSE, "Y.Yaw", "Absolute Rotation (degrees)", c(NA, 600), "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #Z Rotation (Roll)
-# plotAndAnova("Z Rotation (Roll)_Preferred", "./Tests./Rotation Z_Preferred", "./Plots./Rotation", 
-#              Data_avg_noErr_Pref, FALSE, "Z.Roll", "Absolute Rotation (degrees)", c(NA, 750), "runTests" = FALSE, "addJitter" = TRUE)
-# 
-# #Total Rotation
-# plotAndAnova("Total Rotation_Preferred", "./Tests./Rotation Total_Preferred", "./Plots./Rotation", 
-#              Data_avg_noErr_Pref, FALSE, "Total.Rotation", "Absolute Rotation (degrees)", c(NA, 2250), "runTests" = FALSE, "addJitter" = TRUE)
-# 

@@ -59,7 +59,7 @@ data:  tmp_rating, tmp_cond and tmp_subj
 Friedman chi-squared = 8.4247, df = 3, p-value = 0.038
 
 [1] "----------------FOLLOWUP TESTS----------------"
-[1] "Followup tests using: Wilcox"
+[1] "Followup tests using Wilcoxon"
 [1] "Collocated vs HUD"
 
 	Wilcoxon signed rank test with continuity correction

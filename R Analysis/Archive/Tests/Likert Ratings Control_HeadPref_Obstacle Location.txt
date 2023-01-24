@@ -1,5 +1,0 @@
-[1] "Friedman Test for Control Obstacle Location - Head Preference"
-[1] "----------------MEDIAN VALUES----------------"
-        Condition med        sd
-1 Control (first) 4.5 1.6035675
-2  Control (last) 5.5 0.8864053

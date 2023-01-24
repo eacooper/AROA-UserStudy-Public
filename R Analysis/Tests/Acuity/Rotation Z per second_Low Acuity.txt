@@ -29,18 +29,18 @@
 2 #7CAE00 11.242193 11.68499 12.52920 13.07159 13.50060 9.30822, 15.20656   13.35725  11.701140 2       FALSE     1     2   9.308220
 3 #00BFC4  9.170720 10.02755 11.86905 14.46630 20.00387                     14.51980   9.218303 3       FALSE     1     3   9.170720
 4 #C77CFF  8.616744 11.38524 13.96547 14.81041 17.15669                     16.01092  11.920015 4       FALSE     1     4   8.616744
-  ymax_final  xmin  xmax xid newx new_width weight  fill size alpha shape linetype
-1   18.65982 0.625 1.375   1    1      0.75      1 white  0.5    NA    19    solid
-2   15.20656 1.625 2.375   2    2      0.75      1 white  0.5    NA    19    solid
-3   20.00387 2.625 3.375   3    3      0.75      1 white  0.5    NA    19    solid
-4   17.15669 3.625 4.375   4    4      0.75      1 white  0.5    NA    19    solid
+  ymax_final  xmin  xmax xid newx new_width weight  fill alpha shape linetype linewidth
+1   18.65982 0.625 1.375   1    1      0.75      1 white    NA    19    solid       0.5
+2   15.20656 1.625 2.375   2    2      0.75      1 white    NA    19    solid       0.5
+3   20.00387 2.625 3.375   3    3      0.75      1 white    NA    19    solid       0.5
+4   17.15669 3.625 4.375   4    4      0.75      1 white    NA    19    solid       0.5
 
 [[2]]
-   colour x group        y ymin ymax PANEL flipped_aes size linetype shape fill alpha stroke
-1 #F8766D 1     1 14.27412   NA   NA     1       FALSE    1        1    20   NA    NA      1
-2 #7CAE00 2     2 12.36531   NA   NA     1       FALSE    1        1    20   NA    NA      1
-3 #00BFC4 3     3 12.86162   NA   NA     1       FALSE    1        1    20   NA    NA      1
-4 #C77CFF 4     4 13.16146   NA   NA     1       FALSE    1        1    20   NA    NA      1
+   colour x group        y ymin ymax PANEL flipped_aes size linewidth linetype shape fill alpha stroke
+1 #F8766D 1     1 14.27412   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+2 #7CAE00 2     2 12.36531   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+3 #00BFC4 3     3 12.86162   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
+4 #C77CFF 4     4 13.16146   NA   NA     1       FALSE    1       0.5        1    20   NA    NA      1
 
 [1] "-----------------------ANOVA-----------------------"
 [1] "Overall ANOVA"

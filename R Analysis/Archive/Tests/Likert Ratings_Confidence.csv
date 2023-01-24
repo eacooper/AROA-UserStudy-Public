@@ -1,5 +1,0 @@
-"","Test","Chi Sq","p value","Corrected p threshold","Result"
-"1","Omnibus","31.8034","<<0.001","0.05","PASS"
-"2","Collocated vs HUD","136","<<0.001","0.017","PASS"
-"3","Collocated vs Combined","55.5","0.201","0.017","FAIL"
-"4","HUD vs Combined","14.5","0.005","0.017","PASS"

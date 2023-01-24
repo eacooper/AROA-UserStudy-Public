@@ -1,3 +1,0 @@
-[1] "Friedman Test for Control Median - World Preference"
-[1] "Friedman Test for Control Confidence - World Preference"
-[1] "Excess sink detected."

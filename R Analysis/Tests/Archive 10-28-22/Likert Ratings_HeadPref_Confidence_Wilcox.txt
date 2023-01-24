@@ -1,7 +1,0 @@
-[1] "Friedman Test for Confidence - Head Preference"
-[1] "----------------MEDIAN VALUES----------------"
-   Condition med        sd
-1 Collocated   2 0.9161254
-2   Combined   2 1.0690450
-3        HUD   0 1.0690450
-4    No Cues  -1 0.8345230

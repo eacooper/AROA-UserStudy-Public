@@ -1,7 +1,0 @@
-[1] "Friedman Test for Awareness - Head Preference"
-[1] "----------------MEDIAN VALUES----------------"
-   Condition  med        sd
-1 Collocated  1.0 1.2817399
-2   Combined  1.0 1.3093073
-3        HUD  0.0 0.9161254
-4    No Cues -0.5 0.7440238

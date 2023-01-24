@@ -1,7 +1,7 @@
 # Runs Friedman test and followup Friedman or Wilcox tests on experimental condition Likert ratings.
 # Output includes a text file with test results (if runTests = True) and a figure.
 
-friedmanTests <- function (title, filepath, plotpath, dataSet, targetRating, runTests = TRUE, addJitter = FALSE, followup = "Wilcox") {
+friedmanTests <- function (title, filepath, plotpath, dataSet, targetRating, runTests = TRUE, addJitter = FALSE) {
     
   #Title is the title of the test
   #Filepath is the filepath to save results to (text and CSV), e.g. "./Tests./Preferred./Likert Ratings_WorldPref_Median"
@@ -10,8 +10,7 @@ friedmanTests <- function (title, filepath, plotpath, dataSet, targetRating, run
   #targetRating = target rating (e.g. Median.Rating, Confidence, etc.) as string
   #runTests -> Runs tests if true, otherwise only graphs
   #addJitter -> Adds geom_jitter to graphs if true
-  #Followup -> Runs followup tests as Wilcox or Friedman, depending
-  
+
   # Clear any outstanding sinks
   while (sink.number() > 0) {
     sink(file = NULL)
@@ -203,7 +202,7 @@ friedmanTests <- function (title, filepath, plotpath, dataSet, targetRating, run
     
     # do pairwise follow up tests
     # Replaced with paired sample Wilcoxon tests, removing No Cues
-    print(paste0("Followup tests using: ", followup))
+    print(paste0("Followup tests using Wilcoxon"))
     
     # Set test counter and empty lists
     numTest = 0
@@ -214,90 +213,46 @@ friedmanTests <- function (title, filepath, plotpath, dataSet, targetRating, run
     effSizeList = list() # Effect sizes
     effMagList = list() # Effect magnitudes
     
-    
-    # Friedman or Wilcox based on input
-    if (followup == "Friedman") {
-      #Friedman test deprecated
-      warning("Friedman test deprecated. Please use Wilcoxon.")
-      # statName = "Chi Sq"
-      # 
-      # # Function takes two conditions and compares them
-      # fFunc <- function(con1, con2) {
-      #   # Create a custom test string
-      #   testString = paste(con1, "vs", con2)
-      #   print(testString)
-      #   
-      #   # Run test and print results
-      #   test <<- friedman.test(tmp_rating[tmp_cond == con1 | tmp_cond == con2],
-      #                          tmp_cond[tmp_cond== con1 | tmp_cond == con2],
-      #                          tmp_subj[tmp_cond== con1 | tmp_cond == con2])
-      #   print(test)
-      #   
-      #   # Add results to lists, increment test counter
-      #   nameList[[testString]] <<- testString
-      #   chiList[[testString]] <<- test["statistic"]
-      #   pList[[testString]] <<- test["p.value"]
-      #   #fList[["Chi"]][[testString]] <<- test["statistic"]
-      #   #fList[["P"]][[testString]] <<- test["p.value"]
-      #   numTest <<- numTest + 1
-      # }
-      
-      # # Run function for desired condition comparisons
-      # # fFunc("No Cues", "Collocated")
-      # # fFunc("No Cues", "HUD")
-      # # fFunc("No Cues", "Combined")
-      # fFunc("Collocated", "HUD")
-      # fFunc("Collocated", "Combined")
-      # fFunc("HUD", "Combined")
-    } 
-    
-    else if (followup == "Wilcox") {
-      #statName = "V"
-      wFunc <- function(con1, con2) {
-        # Create a custom test string
-        testString = paste(con1, "vs", con2)
-        print(testString)
-        
-        # Run wilcoxon test
-        test <<- wilcox.test(tmp_rating[tmp_cond == con1], tmp_rating[tmp_cond == con2], paired = TRUE, alternative = "two.sided")
-        print(test)
-        
-        # Calculate effect size
-        effSize = qnorm((as.numeric(test["p.value"]))/2)/sqrt(length(tmp_cond)/2) * (-1)
-        effSizeRound = round(as.numeric(effSize)*1000)/1000
-        
-        #Determine magnitude
-        if (effSize < 0.3)
-          effMag = "small"
-        else if (effSize < 0.5)
-          effMag = "medium"
-        else
-          effMag = "large"
-        
-        print(paste("Wilcoxon effect size:", effSizeRound))
-        
-        # Add test values to lists and increment test counter
-        nameList[[testString]] <<- testString
-        vList[[testString]] <<- test["statistic"]
-        pList[[testString]] <<- test["p.value"]
-        #fList[["Chi"]][[testString]] <<- test["statistic"]
-        #fList[["P"]][[testString]] <<- test["p.value"]
-        effSizeList[[testString]] <<- effSizeRound
-        effMagList[[testString]] <<- effMag
-        
-        numTest <<- numTest + 1
-      }
-      
-      # Run tests for desired condition comparisons
-      wFunc("Collocated", "HUD")
-      wFunc("Collocated", "Combined")
-      wFunc("HUD", "Combined")
-    } 
-    
-    else {
-      debug("Please indicate Friedman or Wilcox for followup.")
-    }
 
+    wFunc <- function(con1, con2) {
+      # Create a custom test string
+      testString = paste(con1, "vs", con2)
+      print(testString)
+      
+      # Run wilcoxon test
+      test <<- wilcox.test(tmp_rating[tmp_cond == con1], tmp_rating[tmp_cond == con2], paired = TRUE, alternative = "two.sided")
+      print(test)
+      
+      # Calculate effect size
+      effSize = qnorm((as.numeric(test["p.value"]))/2)/sqrt(length(tmp_cond)/2) * (-1)
+      effSizeRound = round(as.numeric(effSize)*1000)/1000
+      
+      #Determine magnitude
+      if (effSize < 0.3)
+        effMag = "small"
+      else if (effSize < 0.5)
+        effMag = "medium"
+      else
+        effMag = "large"
+      
+      print(paste("Wilcoxon effect size:", effSizeRound))
+      
+      # Add test values to lists and increment test counter
+      nameList[[testString]] <<- testString
+      vList[[testString]] <<- test["statistic"]
+      pList[[testString]] <<- test["p.value"]
+      #fList[["Chi"]][[testString]] <<- test["statistic"]
+      #fList[["P"]][[testString]] <<- test["p.value"]
+      effSizeList[[testString]] <<- effSizeRound
+      effMagList[[testString]] <<- effMag
+      
+      numTest <<- numTest + 1
+    }
+    
+    # Run tests for desired condition comparisons
+    wFunc("Collocated", "HUD")
+    wFunc("Collocated", "Combined")
+    wFunc("HUD", "Combined")
     
 
 # Results -----------------------------------------------------------------

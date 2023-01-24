@@ -1,7 +1,0 @@
-[1] "Friedman Test for Obstacle Location - World Preference"
-[1] "----------------MEDIAN VALUES----------------"
-   Condition  med        sd
-1 Collocated  2.0 1.4222262
-2   Combined  1.0 1.8647447
-3        HUD  0.0 1.5050420
-4    No Cues -0.5 0.8876254
