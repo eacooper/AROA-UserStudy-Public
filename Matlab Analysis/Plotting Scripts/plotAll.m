@@ -1,16 +1,14 @@
 % Plot all participant data using the PlotByName function.
 
-function plotAll (plotPos, plotRot, plotRotRaw)
+function plotAll ()
 
-% Inputs are bools indicating whether it should plot position,
-% rotation, and raw rotation
+% Plots paths for all data
 
 close all;
 
 
-%Set datapath to the PCA folder
-
-datapath = '../PosPCADataV3/'; 
+%Set datapath to the Processed Data folder
+datapath = '../Processed Data/'; 
 
 listing = dir(datapath);
 listing = listing(3:end); %Seems to skip past two files that are only labeled as "." and ".."
@@ -41,34 +39,16 @@ for s = 1:length(listing)
                 if strfind(files(f).name,'csv')
                     %disp("Preparing figure for " + files(f).name);
 
-                    if (plotPos)
-                        plotByName(files(f).name, 1, 0);                    
-                        plotByName(files(f).name, 0, 0);
+                    plotByName(files(f).name, 1);                    
+                    plotByName(files(f).name, 0);
 
-                        totalGraphCount = totalGraphCount + 2;
-                        directoryCount = directoryCount + 2;
-                        
-                    end
-                    
-                    if (plotRot)
-                        plotByName(files(f).name, 1, 1);
-                        plotByName(files(f).name, 0, 1);
-
-                        totalGraphCount = totalGraphCount + 2;
-                        directoryCount = directoryCount + 2;                        
-                    end
-
-                    if (plotRotRaw)
-                        plotRawRotation(files(f).name);
-
-                        totalGraphCount = totalGraphCount + 1;
-                        directoryCount = directoryCount + 1;                        
-                    end
+                    totalGraphCount = totalGraphCount + 2;
+                    directoryCount = directoryCount + 2;
                     
                 end
              end
         end
-        disp(directoryCount + " graphs made.");
+        disp(directoryCount + " graphs made for " + dirname);
     end
 end
 disp("A grand total of " + totalGraphCount + " graphs made.");

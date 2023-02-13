@@ -19,8 +19,8 @@
 clear variables;
 close all;
 
-%Sets directory path to the raw data folder
-datapath = '../PosPCADataV3/';
+%Sets directory path to the processed data folder
+datapath = '../Processed Data/';
 
 % Subject directory list
 listing = dir([datapath '*OA*' ]);
@@ -40,7 +40,7 @@ summaryStats.Properties.VariableNames(1:end) = {'Participant ID', 'Condition', '
 
 for s = 1:length(listing) %Goes through all folders
     
-    if listing(s).isdir && listing(s).name ~= "OA21_22-06-15"  % Exclude test data
+    if listing(s).isdir
         
         dirname = listing(s).name;
 
@@ -149,8 +149,7 @@ for s = 1:length(listing) %Goes through all folders
 
 
             % Get the differences between adjacent rotation elements of the vector
-            % We use trig here to account for going from 0 to 360 degrees
-            % and back
+            % We use trig here to account for going from 0 to 360 degrees and back
             rotatoXDiffs = atan2(sin((diff(rotationX))*pi/180),cos((diff(rotationX))*pi/180))*180/pi;
             rotatoYDiffs = atan2(sin((diff(rotationY))*pi/180),cos((diff(rotationY))*pi/180))*180/pi;
             rotatoZDiffs = atan2(sin((diff(rotationZ))*pi/180),cos((diff(rotationZ))*pi/180))*180/pi;
@@ -190,7 +189,7 @@ for s = 1:length(listing) %Goes through all folders
             speedVarCorrected(f) = speedVarCorrectedTrial;
 
 
-            % I this is one of the corrupted trajectories, replace
+            % If this is one of the corrupted trajectories, replace
             % everything with a NaN
             if (TotalDist(f) == 0)
                 warning('need to exclude corrupted trajectory files')
@@ -220,7 +219,7 @@ for s = 1:length(listing) %Goes through all folders
             num2cell(RotSpeedX), num2cell(RotSpeedY), num2cell(RotSpeedZ), ...
             num2cell(percentStopped), num2cell(percentSlowed), num2cell(speedVariance), num2cell(speedVarCorrected)]);
 
-        %Rearrange rows to No Cues (F,B), Collocated (F,B), HUD (F,B), Combined (F,B)
+        %Rearrange rows to No Cues (F,B), World-Locked (F,B), Heads-Up (F,B), Combined (F,B)
         participantStats = [participantStats(8,:); participantStats(7,:); participantStats(2,:); participantStats(1,:); ...
             participantStats(6,:); participantStats(5,:); participantStats(4,:); participantStats(3,:)];
 

@@ -1,7 +1,0 @@
-Outlier threshold of 0.2
-Interval of 0.33996 found at index 730 in file OA07_22-03-30_Collocated_Layout 8_Forward_posTracking.csv
-Interval of 1.98 found at index 430 in file OA08_22-04-01_HUD_Layout 2_Forward_posTracking.csv
-Interval of 0.20019 found at index 354 in file OA10_22-04-11_Combined_Layout 2_Backward_posTracking.csv
-Interval of 0.23999 found at index 981 in file OA10_22-04-11_No Cues_Layout 8_Forward_posTracking.csv
-Interval of 0.24001 found at index 46 in file OA11_22-04-20_Combined_Layout 3_Forward_posTracking.csv
-Average value: 0.046967

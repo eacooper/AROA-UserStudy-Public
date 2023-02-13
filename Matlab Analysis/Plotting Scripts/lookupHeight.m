@@ -2,8 +2,8 @@
 
 function height = lookupHeight (id)
 
-    % Note that heights are listed in inches, will be converted to meters
-    % before returning
+    % Note that heights are listed in inches, 
+    % will be converted to meters before returning
     if id == "OA01" 
         height = 66;
     elseif id == "OA02"
@@ -44,8 +44,6 @@ function height = lookupHeight (id)
         height = 71;
     elseif id == "OA20"
         height = 68;
-    elseif id == "OA21"
-        height = 72;
     else
         error("Unknown participant ID entered into lookupHeight.");
     end

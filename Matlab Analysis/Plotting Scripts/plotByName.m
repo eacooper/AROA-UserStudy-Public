@@ -1,31 +1,18 @@
 % Takes in a CSV file of processed data for one trial and plots it.
 
-function plotByName (fileName, topDown, plotRotation)
+function plotByName (fileName, topDown)
 
-% fileName = posPCA CSV file to use. e.g. char("OA10_22-04-11_Collocated_Layout 6_Forward_posTracking.csv")
+% fileName = Processed Data CSV file to use. e.g. char("OA10_22-04-11_Collocated_Layout 6_Forward.csv")
 % topDown -> 1 if top-down graph, 0 if side-on graph
-% plotRotation -> 1 if you want to show rotation, 0 for just speed circles
 
     close all;
 
     %Establish data path
-    datapath = '../PosPCADataV3/';
+    datapath = '../Processed Data/';
     sbjFileName = fileName(1:13);
     participantID = fileName(1:4);
 
     disp("Now plotting " + sbjFileName);
-
-    % Sample rate. Used if scaling circles to speed in Plot Speed Scaled Circles.
-    sampRate = 50;
-    
-    %Colours
-    colour1 = [82, 161, 181]./256; %teal
-    colour2 = [255, 180, 26]./256; %orange
-    colour3 = [230, 26, 113]./256; %rose
-    colour4 = [205, 135, 255]./256; %lavender
-    colour5 = [175, 255, 117]./256; %honeydew
-    
-    colours = [colour1; colour2; colour3; colour4; colour5];
 
 %% File Setup
 
@@ -59,13 +46,6 @@ function plotByName (fileName, topDown, plotRotation)
             y = pData.Y + subjHeightMeters;
             z = pData.Z;
             t = pData.Time;
-            %upHUD = pData.UpHUD;
-            %rightHUD = pData.RightHUD;
-            %downHUD = pData.DownHUD;
-            %leftHUD = pData.LeftHUD;
-            rotationX = pData.RotationX;
-            rotationY = pData.RotationY;
-            rotationZ = pData.RotationZ;
 
             direction = pData.Direction(1);
 
@@ -83,23 +63,18 @@ function plotByName (fileName, topDown, plotRotation)
         % Calculate total distance
         dists = sqrt(xDiffs.^2 + zDiffs.^2);
         totalDist = sum(dists);
-        
-        %Finding out which trial type it is
+
+                %Finding out which trial type it is
         if strcmp(trialType, 'No Cues')
-            typeID = 1;
             trialString = 'No Cues';
         elseif strcmp(trialType, 'Collocated')
-            typeID = 2;
             trialString = 'World-Locked';
         elseif strcmp(trialType, 'Combined')
-            typeID = 3;
             trialString = 'Combined';
         elseif strcmp(trialType, 'HUD')
-            typeID = 4;
             trialString = 'Heads-Up';
         else
             warning(strcat("Unknown Trial Type!!: ", trialType));
-            typeID = 5;
         end
 
         %% Plotting
@@ -110,14 +85,8 @@ function plotByName (fileName, topDown, plotRotation)
             %Plot base line
             plot(z, -x, 'LineWidth', 1.25, 'Color', [0.5 0.5 0.5]);
     
-            %Add circles or rotation vectors
-            if (plotRotation == 0)
-                fig = plotSpeedScaledCircles(z, x, t, dists, sampRate, fig, colours(typeID, :), 0, 0.5);
-            
-            else 
-                fig = plotPathRotation(fig, x, y, z, t, dists, rotationX, rotationY, rotationZ, direction == "Backward", topDown, 0.5);
-
-            end    
+            %Add circles
+            fig = overlayCircles(z, x, t, fig, 0.5);
 
             % Set limits for graph
             minX = 0;
@@ -145,14 +114,8 @@ function plotByName (fileName, topDown, plotRotation)
             %Plot base line
             plot(z, y, 'LineWidth', 1.25, 'Color', [0.5 0.5 0.5]);
     
-            %Add circles or rotation vectors
-            if (plotRotation == 0)
-                 fig = plotSpeedScaledCircles(z, -y, t, dists, sampRate, fig, colours(typeID, :), 0, 0.5);
-
-            else 
-                fig = plotPathRotation(fig, x, y, z, t, dists, rotationX, rotationY, rotationZ, direction == "Backward", topDown, 0.5);
-
-            end    
+            %Add circles
+            fig = overlayCircles(z, -y, t, fig, 0.5);
 
             % Set limits for graph
             minX = 0;
@@ -186,7 +149,7 @@ function plotByName (fileName, topDown, plotRotation)
         ax.FontSize = 20;
 
         % Tick marks
-        set(gca,'XTick', [minX:1.5:maxX], 'YTick', [minY:tick:maxY]);
+        set(gca,'XTick', minX:1.5:maxX, 'YTick', minY:tick:maxY);
 
         % Tight border around the graph
         set(gca,'LooseInset',get(gca,'TightInset'));   
@@ -241,12 +204,6 @@ function plotByName (fileName, topDown, plotRotation)
         % Overlay obstacles
         fig = overlayObstacles(fig, layoutNum, topDown, heightVal);        
 
-        % Overlay HUD cues for HUD or Combined conditions
-        % Disabled for now
-        %if(strcmp(trialType, 'HUD')||strcmp(trialType, 'Combined'))
-        %    fig = overlayHUDCues(fig, z, hudCuesInput, upHUD, downHUD, rightHUD, leftHUD, ax1, topDown);
-        %end
-
         % Draw person to help indicate top-down vs side-on
         if topDown %Just draw ellipses representing head and shoulders seen from above
             annotation('ellipse', [0.082 0.415 0.01 0.15], 'FaceColor', 'black'); %Shoulders
@@ -286,11 +243,7 @@ function plotByName (fileName, topDown, plotRotation)
         %% Saving
 
         %Defines folderpath to save the figures to
-        if(plotRotation)
-            folderPath = strcat('../posFiguresV3/', participantID,'/Rotation');
-        else
-            folderPath = strcat('../posFiguresV3/', participantID,'/Position');
-        end
+        folderPath = strcat('../Plots/', participantID);
         
         if ~exist(folderPath, 'dir')
             mkdir(folderPath);

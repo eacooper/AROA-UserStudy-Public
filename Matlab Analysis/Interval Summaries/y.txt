@@ -1,1 +1,0 @@
-Outlier threshold of 0.2

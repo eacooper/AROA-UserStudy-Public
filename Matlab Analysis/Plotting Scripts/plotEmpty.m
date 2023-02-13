@@ -39,8 +39,6 @@ function plotEmpty (layoutNum, isForward, topDown)
             maxY = 0.9;
             tick = 0.3;
     
-            startHeight = -0.3;
-            typeText = "top down";
             heightVal = 0;
             %hudCuesInput = x;
             
@@ -65,8 +63,6 @@ function plotEmpty (layoutNum, isForward, topDown)
             maxY = 2.5;
             tick = 0.5;
     
-            startHeight = 1;
-            typeText = "side on";
             heightVal = 1.7;
     
             %Plotting the START/END text
@@ -167,7 +163,7 @@ function plotEmpty (layoutNum, isForward, topDown)
         %% Saving
     
         %Defines folderpath to save the figures to
-        folderPath = strcat('../posFiguresV3/Empty Layout');
+        folderPath = strcat('../Plots/Empty Layout');
         
         if ~exist(folderPath, 'dir')
             mkdir(folderPath);
